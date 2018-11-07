@@ -1,10 +1,5 @@
 <template>
   <div id="app">
-
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
     <van-tabbar v-model="active">
       <van-tabbar-item @click='tabbar' v-for="(item, index) in icons" :key='index'
@@ -60,10 +55,11 @@ export default {
       // console.log(typeof storage.b);
       // console.log(typeof storage.c);
       // console.log(this);
-      this.$http.get('http://www.sonyo.com/api/index/store_select_group_area?lat=&lng=')
-        .then((data) => {
-          console.log(data);
-        });
+      // this.$http
+      //   .get('http://www.sonyo.com/api/index/store_select_group_area?lat=&lng=')
+      //   .then((data) => {
+      //     console.log(data);
+      //   });
     }
   },
   methods: {
@@ -76,31 +72,53 @@ export default {
 </script>
 
 <style lang="stylus">
-*
-  padding 0
-  margin 0
-#app
-  font-family 'Avenir', Helvetica, Arial, sans-serif
-  -webkit-font-smoothing antialiased
-  -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-#nav
-  padding 30px
-  a
-    font-weight bold
-    color #2c3e50
-    &.router-link-exact-active
-      color #42b983
-.van-tabbar
-  height 117.26px
-.van-tabbar-item__icon
-  img
-    width 58.63px
-    height 58.63px
-.van-tabbar-item__text
-  font-size 28.14px
-  margin-top 6px
-.van-tabbar-item--active
-  color #f29600
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
+}
+
+.van-tabbar {
+  height: 117.26px;
+}
+
+.van-tabbar-item__icon {
+  img {
+    width: 58.63px;
+    height: 58.63px;
+  }
+
+  .van-info {
+    z-index: 2;
+  }
+}
+
+.van-tabbar-item__text {
+  font-size: 28.14px;
+  margin-top: 6px;
+}
+
+.van-tabbar-item--active {
+  color: #f29600;
+}
 </style>

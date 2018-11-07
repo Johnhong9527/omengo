@@ -31,5 +31,10 @@ export default new Router({
       name: 'personal',
       component: () => import(/* webpackChunkName: "personal" */ './views/Personal.vue'),
     },
+    {
+      path: '/SelectStore',
+      name: 'selectStore',
+      component: () => import(/* webpackChunkName: "personal" */ './views/SelectStore.vue'),
+    },
   ],
 });

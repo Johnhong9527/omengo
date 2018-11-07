@@ -1,7 +1,18 @@
 import Vue from 'vue';
 import NProgress from './components/progress/nprogress';
 // eslint-disable-next-line
-import { Row, Col, Loading, Swipe, SwipeItem, Uploader, Icon, Tabbar, TabbarItem } from 'vant';
+import {
+  Row,
+  Col,
+  Loading,
+  Swipe,
+  SwipeItem,
+  Uploader,
+  Icon,
+  Tabbar,
+  TabbarItem,
+  NavBar,
+} from 'vant';
 import App from './App.vue';
 import router from './router';
 import store from './store';
@@ -15,6 +26,7 @@ Vue.use(Swipe).use(SwipeItem);
 Vue.use(Uploader);
 Vue.use(Icon);
 Vue.use(Tabbar).use(TabbarItem);
+Vue.use(NavBar);
 // Vue.use(ajaxPlugin);
 Vue.prototype.$http = ajaxPlugin;
 // console.log(ajax)
@@ -33,5 +45,5 @@ new Vue({
   router,
   store,
   // eslint-disable-next-line
-  render: h => h(App),
+  render: (h) => h(App),
 }).$mount('#app');
