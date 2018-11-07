@@ -56,11 +56,11 @@ export default {
       // 写入c字段
       storage.setItem('b', 2);
       storage.setItem('c', 3);
-      console.log(typeof storage.a);
-      console.log(typeof storage.b);
-      console.log(typeof storage.c);
-      this.http
-        .get('http://www.sonyo.com/api/index/store_select_group_area?lat=&lng=')
+      // console.log(typeof storage.a);
+      // console.log(typeof storage.b);
+      // console.log(typeof storage.c);
+      // console.log(this);
+      this.$http.get('http://www.sonyo.com/api/index/store_select_group_area?lat=&lng=')
         .then((data) => {
           console.log(data);
         });

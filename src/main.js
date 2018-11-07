@@ -5,7 +5,7 @@ import { Row, Col, Loading, Swipe, SwipeItem, Uploader, Icon, Tabbar, TabbarItem
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import ajax from './plugins/ajax';
+import ajaxPlugin from './plugins/ajax/index';
 import './registerServiceWorker';
 import './assets/nprogress.css';
 
@@ -15,7 +15,9 @@ Vue.use(Swipe).use(SwipeItem);
 Vue.use(Uploader);
 Vue.use(Icon);
 Vue.use(Tabbar).use(TabbarItem);
-Vue.use(ajax);
+// Vue.use(ajaxPlugin);
+Vue.prototype.$http = ajaxPlugin;
+// console.log(ajax)
 Vue.config.productionTip = false;
 
 NProgress.configure({ showSpinner: false, trickleSpeed: 200 });
