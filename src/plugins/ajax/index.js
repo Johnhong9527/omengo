@@ -4,19 +4,19 @@ import axios from 'axios';
 import qs from 'qs';
 //添加请求拦截器
 axios.interceptors.request.use(
-  (config) => {
+  config => {
     return config;
   },
-  (error) => {
+  error => {
     return Promise.reject(error);
   },
 );
 //添加响应拦截器
 axios.interceptors.response.use(
-  (response) => {
+  response => {
     return response;
   },
-  (error) => {
+  error => {
     return Promise.resolve(error.response);
   },
 );
@@ -45,17 +45,16 @@ export default {
       method: 'post',
       url,
       data: params,
-    }).then((response) => {
+    }).then(response => {
       return checkStatus(response);
     });
   },
   get(url, params) {
-    params = qs.stringify(params);
     return axios({
       method: 'get',
       url,
       params,
-    }).then((response) => {
+    }).then(response => {
       return checkStatus(response);
     });
   },

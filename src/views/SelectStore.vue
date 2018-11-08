@@ -1,23 +1,29 @@
 <template>
   <div class="select-store">
-    <van-nav-bar title="选择店铺" left-arrow @click-left="onClickLeft" />
-    <!-- <h3>select-store</h3> -->
+    <div class="nav-bar">
+      <div @click='onClickLeft' class="arrow">
+        <img src="/img/arrow.png" alt="">
+      </div>
+      <div class="title">选择店铺</div>
+    </div>
     <div class="wrapper" ref="wrappers">
       <div class="content">
-        <div class="shop-item" v-for="item in storeSelectGroupArea" :key="item.id">
+        <div class="top"></div>
+        <div class="shop-item" v-for="item in storeSelectGroupArea" :key="item.id"
+          @click="select(item)">
           <div class="name">
             <img src="/img/shop.png">
             <span>{{item.name}}</span>
           </div>
-          <div>
+          <div class="address van-hairline--bottom">
             {{item.address}}
           </div>
-          <div>
-            <span>配送区域：</span><span>{{item.areaName}}</span>
+          <div class="area-name">
+            <span class="title">配送区域：</span><span>{{item.areaName}}</span>
           </div>
         </div>
+        <div class="top"></div>
       </div>
-      <!-- 这里可以放一些其它的 DOM，但不会影响滚动 -->
     </div>
   </div>
 </template>
@@ -33,71 +39,109 @@ export default {
   created() {
     this.$http
       .get('http://www.sonyo.com/api/index/store_select_group_area?lat=&lng=')
-      .then((data) => {
+      .then(data => {
         console.log(data);
         this.storeSelectGroupArea = data.datum;
+        this.initScroll();
       });
   },
-  mounted() {
-    if (!this.scroll) {
-      this.scroll = new Bscroll(this.$refs.wrappers, {});
-    } else {
-      this.scroll.refresh();
-    }
-  },
   updated() {
-    // this.scroll.refresh();
+    this.$nextTick(() => {
+      this.scroll.refresh();
+    });
   },
   methods: {
     onClickLeft() {
-      // history.go(-1);
+      this.$router.push({ path: '/' });
+    },
+    initScroll() {
+      if (!this.scroll) {
+        this.scroll = new Bscroll(this.$refs.wrappers, {
+          click: true,
+        });
+      } else {
+        this.scroll.refresh();
+      }
+    },
+    select(item) {
+      console.log(item);
+      // 主逻辑业务
+      const storage = window.localStorage;
+      // eslint-disable-next-line
+      storage.__H5__store__ = JSON.stringify(item);
+      // eslint-disable-next-line
+      if (JSON.stringify(item) === storage.__H5__store__) {
+        this.$router.push({
+          path: '/',
+        });
+      }
     },
   },
 };
 </script>
 
-<style lang="less" scoped>
-.select-store {
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #fff;
-}
-
-.van-nav-bar {
-  position: fixed;
-  z-index: 3;
-  left: 0;
-  right: 0;
-  height: 93.76px;
-
-  line-height: 93.76px;
-}
-.van-nav-bar__title {
-  font-size: 137.5px;
-}
-.wrapper {
-  margin-top: 117.1970px;
-  height: calc(100vh - 93.76px);
-  overflow: hidden;
-  background-color: #f0f0f0;
-}
-.shop-item {
-  text-align: left;
-  margin: 23.4394px;
-  padding: 23.4394px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 2px #e0e0e0;
-  .name {
-    img {
-      vertical-align: middle;
-      width: 70.3182px;
-      height: 70.3182px;
-    }
-  }
-}
+<style lang="stylus" scoped>
+.select-store
+  position fixed
+  z-index 2
+  top 0
+  bottom 0
+  left 0
+  right 0
+  background-color #f0f0f0
+  .nav-bar
+    position fixed
+    left 0
+    right 0
+    top 0
+    z-index 2
+    height 40px
+    line-height 40px
+    background-color #fff
+    .arrow
+      position absolute
+      width 40px
+      height 40px
+      top 0
+      left 0
+      img
+        width 10px
+        height 20px
+    .title
+      font-size 16px
+.wrapper
+  margin-top 40px
+  height calc(100vh - 40px)
+  overflow hidden
+  background-color #f0f0f0
+  .content
+    .top
+      height 1px
+      width 100%
+  .shop-item
+    font-size 14px
+    text-align left
+    margin 10px
+    padding 10px
+    background-color #fff
+    border-radius 10px
+    box-shadow 0px 0px 10px 2px #e0e0e0
+    .name
+      line-height 40px
+      img
+        width 30px
+        height 30px
+        vertical-align middle
+        margin-right 5px
+      span
+        font-size 16px
+        vertical-align middle
+    .address
+      line-height 31px
+      // border-bottom 1px solid #e0e0f4
+    .area-name
+      color #929292
+      line-height 30px
+      .title
+        color #333
 </style>
