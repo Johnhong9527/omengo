@@ -39,7 +39,7 @@ export default {
   created() {
     this.$http
       .get('http://www.sonyo.com/api/index/store_select_group_area?lat=&lng=')
-      .then(data => {
+      .then((data) => {
         console.log(data);
         this.storeSelectGroupArea = data.datum;
         this.initScroll();

@@ -9,16 +9,23 @@ export default new Vuex.Store({
     datum: {},
   },
   mutations: {
-    getDatum(state, id) {
+    GETDATUM(state, data) {
+      // eslint-disable-next-line
+      state.datum = data;
+    },
+  },
+  actions: {
+    getDatum({ commit }) {
+      const storage = window.localStorage;
       http
         .get('http://www.sonyo.com/api/index?', {
-          storeId: id,
-        })
-        .then(data => {
           // eslint-disable-next-line
-          state.datum = Object.assign({}, data.datum);
+          storeId: JSON.parse(storage.__H5__store__).id,
+        })
+        .then((data) => {
+          // eslint-disable-next-line
+          commit('GETDATUM', data.datum);
         });
     },
   },
-  actions: {},
 });

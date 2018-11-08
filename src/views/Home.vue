@@ -1,8 +1,10 @@
 <template>
   <div class="home">
-    <van-swipe v-if='getDatum && getDatum.datum' :autoplay="3000" @change="onChange">
-      <van-swipe-item v-for="(item, index) in datum.datum.storeAdImages" :key='index'>
-        <img :src="item.image" alt="">
+    <headerComponents />
+    <van-swipe v-if='datum' :autoplay="3000" @change="onChange">
+      <van-swipe-item v-for="(item, index) in datum.storeAdImages" :key='index'>
+        <img :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image"
+          alt="">
       </van-swipe-item>
       <div class="custom-indicator" slot="indicator" style="color:red;">
         <!-- {{ current + 1 }}/4 -->
@@ -25,7 +27,8 @@
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue';
 // eslint-disable-next-line
-import { mapActions, mapMutations, mapGetters } from 'vuex';
+import { mapState } from 'vuex';
+import headerComponents from '@/components/header/header.vue';
 
 export default {
   name: 'home',
@@ -33,7 +36,6 @@ export default {
     return {
       current: 0,
       storeId: -1,
-      datum: {},
     };
   },
   created() {
@@ -46,17 +48,21 @@ export default {
       } else {
         // eslint-disable-next-line
         this.storeId = JSON.parse(storage.__H5__store__).id;
-        this.getDatum(this.storeId);
-        console.log(this.$store.state.datum);
+        // this.getDatum(this.storeId);
+        // console.log(this.$store.state.datum);
       }
     }
   },
+  components: {
+    headerComponents,
+  },
+  computed: {
+    ...mapState({
+      datum: (state) => state.datum,
+    }),
+  },
   mounted() {
-    console.log(this.$store.state);
-    this.$nextTick(() => {
-      this.datum = Object.assign({}, this.$store.state.datum);
-      console.log(this.datum);
-    });
+    this.$store.dispatch('getDatum');
   },
   methods: {
     onChange(index) {
@@ -65,7 +71,6 @@ export default {
     removeItem() {
       localStorage.removeItem('__H5__store__');
     },
-    ...mapMutations(['getDatum']),
   },
 };
 </script>
@@ -76,6 +81,9 @@ vanSwipeIndicator = 90px
   height vSwipeHeight
   .van-swipe-item
     line-height vSwipeHeight
+    img
+      display block
+      width 100%
 .van-swipe__indicators
   .van-swipe__indicator
     width vanSwipeIndicator
