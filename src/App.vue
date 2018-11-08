@@ -40,28 +40,7 @@ export default {
       ],
     };
   },
-  created() {
-    if (window.localStorage) {
-      // 主逻辑业务
-      const storage = window.localStorage;
-      // 写入a字段
-      storage.a = 1;
-      // 写入b字段
-      storage.b = 1;
-      // 写入c字段
-      storage.setItem('b', 2);
-      storage.setItem('c', 3);
-      // console.log(typeof storage.a);
-      // console.log(typeof storage.b);
-      // console.log(typeof storage.c);
-      // console.log(this);
-      // this.$http
-      //   .get('http://www.sonyo.com/api/index/store_select_group_area?lat=&lng=')
-      //   .then((data) => {
-      //     console.log(data);
-      //   });
-    }
-  },
+  created() {},
   methods: {
     tabbar() {
       const ROUTES = this.$router.options.routes;
@@ -72,53 +51,33 @@ export default {
 </script>
 
 <style lang="stylus">
-* {
-  padding: 0;
-  margin: 0;
-}
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-
-.van-tabbar {
-  height: 117.26px;
-}
-
-.van-tabbar-item__icon {
-  img {
-    width: 58.63px;
-    height: 58.63px;
-  }
-
-  .van-info {
-    z-index: 2;
-  }
-}
-
-.van-tabbar-item__text {
-  font-size: 28.14px;
-  margin-top: 6px;
-}
-
-.van-tabbar-item--active {
-  color: #f29600;
-}
+*
+  padding 0
+  margin 0
+#app
+  font-family 'Avenir', Helvetica, Arial, sans-serif
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+  text-align center
+  color #2c3e50
+#nav
+  padding 30px
+  a
+    font-weight bold
+    color #2c3e50
+    &.router-link-exact-active
+      color #42b983
+.van-tabbar
+  height 40px
+.van-tabbar-item__icon
+  img
+    width 20px
+    height 20px
+  .van-info
+    z-index 2
+.van-tabbar-item__text
+  font-size 12px
+  margin-top 1px
+.van-tabbar-item--active
+  color #f29600
 </style>

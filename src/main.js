@@ -12,7 +12,9 @@ import {
   Tabbar,
   TabbarItem,
   NavBar,
+  Lazyload,
 } from 'vant';
+import 'amfe-flexible';
 import App from './App.vue';
 import router from './router';
 import store from './store';
@@ -27,6 +29,8 @@ Vue.use(Uploader);
 Vue.use(Icon);
 Vue.use(Tabbar).use(TabbarItem);
 Vue.use(NavBar);
+// options 为可选参数，无则不传
+Vue.use(Lazyload);
 // Vue.use(ajaxPlugin);
 Vue.prototype.$http = ajaxPlugin;
 // console.log(ajax)
@@ -45,5 +49,5 @@ new Vue({
   router,
   store,
   // eslint-disable-next-line
-  render: (h) => h(App),
+  render: h => h(App),
 }).$mount('#app');
