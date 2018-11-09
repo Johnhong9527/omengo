@@ -1,0 +1,81 @@
+{
+  "datum": [
+    {
+      "address": "嘉信城市广场二期E134号铺",
+      "distance": 0.0,
+      "areaName": "嘉信城市广场、嘉信城市花园5期、嘉兆台、嘉宏台、嘉仑台、史努比公园",
+      "workHours": "07:00-23:59",
+      "name": "嘉信城市广场店",
+      "id": 7,
+      "type": "self"
+    },
+    {
+      "address": "嘉信城市花园一期会所旁",
+      "distance": 0.0,
+      "areaName": "嘉信城市花园1期、嘉信城市花园2期、嘉信城市花园3期、聚胜花园、德胜小学、行政服务中心西区",
+      "workHours": "07:00-23:59",
+      "name": "嘉信花园一期店",
+      "id": 2,
+      "type": "self"
+    },
+    {
+      "address": "大良保利中悦花园西门22号商铺",
+      "distance": 0.0,
+      "areaName": "保利中宇、保利中汇、保利中悦、中环广场、恒基金融中心、悍高电商、海晨公寓、商贸中心一号楼、万科金域滨江、保利广场",
+      "workHours": "07:00-23:59",
+      "name": "保利中悦店",
+      "id": 4,
+      "type": "self"
+    },
+    {
+      "address": "容桂碧桂园凤凰湾10号商铺",
+      "distance": 0.0,
+      "areaName": "凤凰湾一期、碧桂园花季苑、风情荟庭、水漾林庭、碧桂圆观澜苑",
+      "workHours": "08:00-23:59",
+      "name": "凤凰湾店",
+      "id": 5,
+      "type": "self"
+    },
+    {
+      "address": "容桂佳兆业金域天下12号商铺",
+      "distance": 0.0,
+      "areaName": "金域天下、美的·御海东郡、合峰东岸、水岸龙庭",
+      "workHours": "08:00-23:59",
+      "name": "金域天下店",
+      "id": 6,
+      "type": "self"
+    },
+    {
+      "address": "送哟康格斯店：大良康格斯花园二期42号铺",
+      "distance": 0.0,
+      "areaName": "康格斯花园店",
+      "workHours": "07:00-23:59",
+      "name": "康格斯花园店",
+      "id": 9,
+      "type": "self"
+    },
+    {
+      "address": "送哟博澳城店：勒流博澳城7区首层8号商铺",
+      "distance": 0.0,
+      "areaName": "博澳城",
+      "workHours": "07:00-23:59",
+      "name": "博澳城店",
+      "id": 10,
+      "type": "self"
+    },
+    {
+      "address": "时代倾城商业街136号铺",
+      "distance": 0.0,
+      "areaName": "时代倾城店、城光荟景、朗宁群、时代公寓",
+      "workHours": "07:00-23:59",
+      "name": "时代倾城店",
+      "id": 11,
+      "type": "self"
+    }
+  ],
+  "currentTime": "2018-11-09 09:12:26",
+  "code": 1,
+  "siteImageUrl": "https://fsomengo.oss-cn-shenzhen.aliyuncs.com",
+  "siteName": "送哟",
+  "message": null
+}

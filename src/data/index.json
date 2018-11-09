@@ -1,0 +1,4151 @@
+[
+  {
+    "id": 7,
+    "datum": {
+      "storeProductCategory": [
+        {
+          "image": "/upload/image/201809/f293b706-cbe0-4628-9aca-df6e21be608c.png",
+          "children": [
+            {
+              "image": "/upload/image/201806/e05f1f36-a184-47ec-9bb2-da683550b12a.jpg",
+              "unit": "32g/包",
+              "promotions": [],
+              "price": "5.50",
+              "availableStock": 6,
+              "name": "益达无糖口香糖薄荷味",
+              "discountPrice": "0.00",
+              "weight": 10,
+              "id": 1009639874254340096,
+              "type": {},
+              "brand": "益达",
+              "sid": "1009639874254340096"
+            },
+            {
+              "image": "/upload/image/201803/4c0334b7-c770-4679-8777-e0446b23a601.jpg",
+              "unit": "18g/包",
+              "promotions": [],
+              "price": "1.00",
+              "availableStock": 21,
+              "name": "海鲜风味卜卜星",
+              "discountPrice": "0.00",
+              "weight": 25,
+              "id": 1009639826451857408,
+              "type": {},
+              "brand": "卜卜星",
+              "sid": "1009639826451857408"
+            },
+            {
+              "image": "/upload/image/201801/489d240b-8c07-4e5c-bf78-b8539ab0f936.jpg",
+              "unit": "200g/杯",
+              "promotions": [],
+              "price": "4.00",
+              "availableStock": 6,
+              "name": "什锦果肉果冻",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1009639660109955072,
+              "type": {},
+              "brand": "喜之郎",
+              "sid": "1009639660109955072"
+            },
+            {
+              "image": "/upload/image/201801/d7b63782-c948-4d71-9344-1af838ff9511.jpg",
+              "unit": "200g/杯",
+              "promotions": [],
+              "price": "4.00",
+              "availableStock": 7,
+              "name": "蜜桔果肉果冻",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1009639659992514560,
+              "type": {},
+              "brand": "喜之郎",
+              "sid": "1009639659992514560"
+            },
+            {
+              "image": "/upload/image/201801/45db3352-a5c1-4178-ada5-26931f446a5d.jpg",
+              "unit": "23g/包",
+              "promotions": [],
+              "price": "1.50",
+              "availableStock": 16,
+              "name": "旺仔葡萄味QQ糖",
+              "discountPrice": "0.00",
+              "weight": 20,
+              "id": 1009639644947546112,
+              "type": {},
+              "brand": "旺仔",
+              "sid": "1009639644947546112"
+            }
+          ],
+          "name": "休闲零食",
+          "id": 1009720560604676096,
+          "sid": "1009720560604676096"
+        },
+        {
+          "image": "/upload/image/201809/3e2a97f8-8240-4e21-9e19-52760d4bae7d.png",
+          "children": [
+            {
+              "image": "/upload/image/201810/61550b4f-b706-4536-a028-8b60c6543308.jpg",
+              "unit": "450ml/瓶",
+              "promotions": [],
+              "price": "9.80",
+              "availableStock": 8,
+              "name": "百事蓝色梅子味可乐",
+              "discountPrice": "0.00",
+              "id": 1056712228532649984,
+              "type": {},
+              "brand": "百事可乐",
+              "sid": "1056712228532649984"
+            },
+            {
+              "image": "/upload/image/201810/7735fb27-9bda-4c27-bbc3-759a6f1b5229.jpg",
+              "unit": "500ml/瓶",
+              "promotions": [],
+              "price": "6.00",
+              "availableStock": 4,
+              "name": "元気森林桃香无糖燃茶",
+              "discountPrice": "0.00",
+              "id": 1052809017312673792,
+              "type": {},
+              "brand": "元気森林",
+              "sid": "1052809017312673792"
+            },
+            {
+              "image": "/upload/image/201802/d22b2f53-4058-48ad-8fda-7af77d7db65b.jpg",
+              "unit": "330ml/罐",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 29,
+              "name": "雪碧罐装",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1009639566258208768,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "1009639566258208768"
+            },
+            {
+              "image": "/upload/image/201801/1cb270d2-76d9-4479-84e2-c20e896906f2.jpg",
+              "unit": "330ml/听",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 5,
+              "name": "可口可乐汽水罐装",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1009639565406765056,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "1009639565406765056"
+            },
+            {
+              "image": "/upload/image/201801/bbeea27f-0ae8-46b1-a5ca-1ef212e7aa8f.jpg",
+              "unit": "450ml/瓶",
+              "promotions": [],
+              "price": "3.00",
+              "availableStock": 4,
+              "name": "美汁源果粒橙",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1009639564697927680,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "1009639564697927680"
+            }
+          ],
+          "name": "饮料冲调",
+          "id": 1009720600689639424,
+          "sid": "1009720600689639424"
+        },
+        {
+          "image": "/upload/image/201809/db37045b-d31c-499d-acb8-57a3fa49b2e8.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/39a782bd-4006-4447-a87d-4089a95491e2.jpg",
+              "unit": "600g-650g",
+              "promotions": [
+                {
+                  "name": "橙子",
+                  "title": "8折"
+                }
+              ],
+              "price": "10.80",
+              "availableStock": 7,
+              "name": "12糖赣南脐橙",
+              "discountPrice": "8.64",
+              "id": 1059920867447799808,
+              "type": {},
+              "brand": "",
+              "sid": "1059920867447799808"
+            },
+            {
+              "image": "/upload/image/201811/1991ed24-52cf-4286-b0f6-553c992f1447.jpg",
+              "unit": "1000g-1300g",
+              "promotions": [
+                {
+                  "name": "沙田柚",
+                  "title": "特价"
+                }
+              ],
+              "price": "13.80",
+              "availableStock": 5,
+              "name": "梅县沙田柚",
+              "discountPrice": "9.89",
+              "id": 1059920866940289024,
+              "type": {},
+              "brand": "",
+              "sid": "1059920866940289024"
+            },
+            {
+              "image": "/upload/image/201811/4cda4c8b-b1f0-43ad-bb1e-c92dd0ec8507.jpg",
+              "unit": "430g-450g",
+              "promotions": [
+                {
+                  "name": "胡萝卜",
+                  "title": "8折"
+                }
+              ],
+              "price": "4.50",
+              "availableStock": 3,
+              "name": "包装带泥红萝卜",
+              "discountPrice": "3.60",
+              "id": 1059920866776711168,
+              "type": {},
+              "brand": "",
+              "sid": "1059920866776711168"
+            },
+            {
+              "image": "/upload/image/201811/e576d88e-dc2d-45a8-93d7-3baf62874eae.jpg",
+              "unit": "220g-240g",
+              "promotions": [
+                {
+                  "name": "菜心苗",
+                  "title": "8折"
+                }
+              ],
+              "price": "3.90",
+              "availableStock": 5,
+              "name": "精品菜心苗",
+              "discountPrice": "3.12",
+              "id": 1059920866613133312,
+              "type": {},
+              "brand": "",
+              "sid": "1059920866613133312"
+            },
+            {
+              "image": "/upload/image/201811/28e9deb9-b337-4b85-943f-72f1e897b2fe.jpg",
+              "unit": "370g-400g",
+              "promotions": [
+                {
+                  "name": "红洋葱",
+                  "title": "8折"
+                }
+              ],
+              "price": "3.50",
+              "availableStock": 8,
+              "name": "包装红洋葱",
+              "discountPrice": "2.80",
+              "id": 1059920866466332672,
+              "type": {},
+              "brand": "",
+              "sid": "1059920866466332672"
+            }
+          ],
+          "name": "每日生鲜",
+          "id": 1009720542506254336,
+          "sid": "1009720542506254336"
+        },
+        {
+          "image": "/upload/image/201809/c53ccdf2-3259-4e1e-8a22-b745f0d0bb5a.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/9c06b157-85e3-44a3-b29a-cd7ad166769d.png",
+              "unit": "1套",
+              "promotions": [],
+              "price": "148.00",
+              "availableStock": 4,
+              "name": "恒大兴安套餐",
+              "discountPrice": "0.00",
+              "id": 1056727323975352320,
+              "type": {},
+              "brand": "恒大兴安",
+              "sid": "1056727323975352320"
+            },
+            {
+              "image": "/upload/image/201807/5981c365-0bfc-45b6-8b90-e8db429405b3.jpg",
+              "unit": "350g/包",
+              "promotions": [],
+              "price": "10.00",
+              "availableStock": 6,
+              "name": "赤砂糖",
+              "discountPrice": "0.00",
+              "id": 1018752100491853824,
+              "type": {},
+              "brand": "太古",
+              "sid": "1018752100491853824"
+            },
+            {
+              "image": "/upload/image/201807/dd4a4445-df33-45d2-b85a-4cf3d8785757.jpg",
+              "unit": "454g/包",
+              "promotions": [],
+              "price": "12.00",
+              "availableStock": 4,
+              "name": "优级白砂糖",
+              "discountPrice": "0.00",
+              "id": 1018752100156309504,
+              "type": {},
+              "brand": "太古",
+              "sid": "1018752100156309504"
+            },
+            {
+              "image": "/upload/image/201806/f8ad1662-ef89-41da-9ff3-ea2067f7a725.jpg",
+              "unit": "450ml/瓶",
+              "promotions": [],
+              "price": "10.00",
+              "availableStock": 5,
+              "name": "海天添丁甜醋",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1009639878838714368,
+              "type": {},
+              "brand": "海天",
+              "sid": "1009639878838714368"
+            },
+            {
+              "image": "/upload/image/201804/e9814593-547e-46ca-8842-bdc67421ec3e.jpg",
+              "unit": "250g/包",
+              "promotions": [],
+              "price": "27.00",
+              "availableStock": 2,
+              "name": "黄豆腐竹段",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1009639864347394048,
+              "type": {},
+              "brand": "瑜文",
+              "sid": "1009639864347394048"
+            }
+          ],
+          "name": "粮油调味",
+          "id": 1009720825617580032,
+          "sid": "1009720825617580032"
+        },
+        {
+          "image": "/upload/image/201809/9f0ec4c7-b79f-435d-9242-6fcd8a9ce54e.png",
+          "children": [
+            {
+              "image": "/upload/image/201807/63199186-4a0b-459e-9af1-967313f4c68c.jpg",
+              "unit": "3片/包",
+              "promotions": [],
+              "price": "10.00",
+              "availableStock": 2,
+              "name": "妙洁棉柔抹布3片装",
+              "discountPrice": "0.00",
+              "id": 1019114488680415232,
+              "type": {},
+              "brand": "妙洁",
+              "sid": "1019114488680415232"
+            },
+            {
+              "image": "/upload/image/201808/43f6a25e-dfb9-42ab-9310-11da5ac777aa.jpg",
+              "unit": "50支/包",
+              "promotions": [],
+              "price": "4.00",
+              "availableStock": 10,
+              "name": "一次性吸管50支装独立包装",
+              "discountPrice": "0.00",
+              "id": 1019106934541778944,
+              "type": {},
+              "brand": "芳草地",
+              "sid": "1019106934541778944"
+            },
+            {
+              "image": "/upload/image/201809/136e61d7-e3b4-4c3a-ab6e-c80fa2af6fd3.jpg",
+              "unit": "约350支/包",
+              "promotions": [],
+              "price": "5.50",
+              "availableStock": 4,
+              "name": "瓶装竹牙签",
+              "discountPrice": "0.00",
+              "id": 1019100252789014528,
+              "type": {},
+              "brand": "芳草地",
+              "sid": "1019100252789014528"
+            },
+            {
+              "image": "/upload/image/201806/e5b4ee55-9f9a-47d9-9531-850f552bef36.jpg",
+              "unit": "41码/双",
+              "promotions": [],
+              "price": "12.00",
+              "availableStock": 4,
+              "name": "PVC防滑男拖鞋",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1009639876166942720,
+              "type": {},
+              "brand": "送哟",
+              "sid": "1009639876166942720"
+            },
+            {
+              "image": "/upload/image/201806/f5796f0d-b9f2-4bd3-964d-08b54e0eb692.jpg",
+              "unit": "37码/双",
+              "promotions": [],
+              "price": "10.00",
+              "availableStock": 3,
+              "name": "PVC防滑女拖鞋",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1009639875994976256,
+              "type": {},
+              "brand": "送哟",
+              "sid": "1009639875994976256"
+            }
+          ],
+          "name": "家居用品",
+          "id": 1009720796760768512,
+          "sid": "1009720796760768512"
+        }
+      ],
+      "hotSearch": ["可乐", "面", "啤酒", "鸡蛋", "辣条", "薯片", "花生"],
+      "wallAdImages": [],
+      "extra": [
+        {
+          "availableStock": 33,
+          "brand": "鼎湖山泉",
+          "discountPrice": "18.00",
+          "id": 1009639680808845312,
+          "image": "/upload/image/201802/18b5fc86-e799-4f45-a49d-0a0cd37c504b.jpg",
+          "marketPrice": "0.00",
+          "name": "鼎湖山泉水桶装水",
+          "price": 22.5,
+          "promotions": [
+            {
+              "name": "桶装水8折",
+              "title": "8折"
+            }
+          ],
+          "sid": "1009639680808845312",
+          "type": "general",
+          "unit": "19L/桶",
+          "weight": 1
+        },
+        {
+          "availableStock": 32,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 1009639772169175040,
+          "image": "/upload/image/201801/955a52ec-0fe4-45be-82d0-609f4a89c430.jpg",
+          "marketPrice": "0.00",
+          "name": "虾味条",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "1009639772169175040",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 40
+        },
+        {
+          "availableStock": 13,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 1009639772311781376,
+          "image": "/upload/image/201801/599d0cae-8c8e-47f0-a673-1ab962fb6463.jpg",
+          "marketPrice": "0.00",
+          "name": "蟹味粒",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "1009639772311781376",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 40
+        },
+        {
+          "availableStock": 34,
+          "brand": "哈尔滨",
+          "discountPrice": "0.00",
+          "id": 1009639610914963456,
+          "image": "/upload/image/201801/8c711975-cccd-42b7-93bf-f30bd992e720.jpg",
+          "marketPrice": "0.00",
+          "name": "冰爽啤酒",
+          "price": 3,
+          "promotions": [],
+          "sid": "1009639610914963456",
+          "type": "general",
+          "unit": "330ml/罐",
+          "weight": 24
+        },
+        {
+          "availableStock": 116,
+          "brand": "徐福记",
+          "discountPrice": "0.00",
+          "id": 1009639646679793664,
+          "image": "/upload/image/201711/f9222444-f2ad-4cc7-9f9f-a42565a9b35c_thumbnail.jpg",
+          "marketPrice": "0.00",
+          "name": "徐福记果味多嘟棒棒糖",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "1009639646679793664",
+          "type": "general",
+          "unit": "9.5g/个",
+          "weight": 108
+        },
+        {
+          "availableStock": 63,
+          "brand": "百威",
+          "discountPrice": "0.00",
+          "id": 1009639610495533056,
+          "image": "/upload/image/201801/c0ecd2f7-49c0-49bb-8d06-6505b4ea1d8e.jpg",
+          "marketPrice": "0.00",
+          "name": "啤酒",
+          "price": 7.5,
+          "promotions": [],
+          "sid": "1009639610495533056",
+          "type": "general",
+          "unit": "500ml/罐",
+          "weight": 12
+        }
+      ],
+      "middleAds": [],
+      "store": {
+        "address": "嘉信城市广场二期E134号铺",
+        "id": 7,
+        "name": "嘉信城市广场店",
+        "type": "self",
+        "work_hours": "07:00-23:59"
+      },
+      "cppStoreAdImages": [
+        {
+          "image": "/upload/image/201811/879c8c52-772f-43a5-8934-14ab2857090f.jpg",
+          "orders": null,
+          "phone": null,
+          "title": "双11弹窗",
+          "type": 2,
+          "url": null
+        }
+      ],
+      "storeId": 7,
+      "bottomAds": [],
+      "interactionImages": [
+        {
+          "image": "/upload/image/201810/8f887ed5-6672-4167-a0e2-7239ab4fefd3.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "零食周",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1057454887098384384"
+        },
+        {
+          "image": "/upload/image/201811/e5c05d46-6bd1-464b-b3db-3cb6447fef30.jpg",
+          "orders": 2,
+          "phone": null,
+          "title": "方便美食",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1046580328614854656"
+        },
+        {
+          "image": "/upload/image/201810/ceaa2ff0-0674-4e24-8c98-014cebdc4f6a.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "0卡路里",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1009720600689639424&subCategoryId=1009720604011528192"
+        },
+        {
+          "image": "/upload/image/201810/ac0d7994-ebdc-444a-84e3-3118b65ca206.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "桶装水活动",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1009720823759503360"
+        }
+      ],
+      "storeAdImages": [
+        {
+          "image": "/upload/image/201811/05f8f2b5-c9bc-4ccf-bce8-48019b3420f4.jpg",
+          "orders": null,
+          "phone": null,
+          "title": "双十一活动",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1059357491206291456"
+        },
+        {
+          "image": "/upload/image/201811/631b7344-734a-424e-885b-7b6634a9d1e4.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "桶装水8折",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1009720823759503360"
+        },
+        {
+          "image": "/upload/image/201811/0cbb300c-5f20-4bdf-926f-0cc43feb946f.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "生鲜4.9折",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1009720542506254336"
+        }
+      ]
+    },
+    "currentTime": "2018-11-09 09:18:31",
+    "code": 1,
+    "siteImageUrl": "https://fsomengo.oss-cn-shenzhen.aliyuncs.com",
+    "siteName": "送哟",
+    "message": null
+  },
+  {
+    "id": 2,
+    "datum": {
+      "storeProductCategory": [
+        {
+          "name": "每日生鲜",
+          "image": "/upload/image/201809/db37045b-d31c-499d-acb8-57a3fa49b2e8.png",
+          "id": 945126128601792512,
+          "children": [
+            {
+              "image": "/upload/image/201811/39a782bd-4006-4447-a87d-4089a95491e2.jpg",
+              "unit": "600g-650g",
+              "promotions": [
+                {
+                  "name": "橙子",
+                  "title": "8折"
+                }
+              ],
+              "price": "10.80",
+              "availableStock": 7,
+              "name": "12糖赣南脐橙",
+              "discountPrice": "8.64",
+              "id": 1059920861202481152,
+              "type": {},
+              "brand": "",
+              "sid": "1059920861202481152"
+            },
+            {
+              "image": "/upload/image/201811/1991ed24-52cf-4286-b0f6-553c992f1447.jpg",
+              "unit": "1000g-1300g",
+              "promotions": [
+                {
+                  "name": "沙田柚",
+                  "title": "特价"
+                }
+              ],
+              "price": "13.80",
+              "availableStock": 5,
+              "name": "梅县沙田柚",
+              "discountPrice": "9.89",
+              "id": 1059920860703358976,
+              "type": {},
+              "brand": "",
+              "sid": "1059920860703358976"
+            },
+            {
+              "image": "/upload/image/201811/4cda4c8b-b1f0-43ad-bb1e-c92dd0ec8507.jpg",
+              "unit": "430g-450g",
+              "promotions": [
+                {
+                  "name": "胡萝卜",
+                  "title": "8折"
+                }
+              ],
+              "price": "4.50",
+              "availableStock": 1,
+              "name": "包装带泥红萝卜",
+              "discountPrice": "3.60",
+              "id": 1059920860527198208,
+              "type": {},
+              "brand": "",
+              "sid": "1059920860527198208"
+            },
+            {
+              "image": "/upload/image/201811/28e9deb9-b337-4b85-943f-72f1e897b2fe.jpg",
+              "unit": "370g-400g",
+              "promotions": [
+                {
+                  "name": "红洋葱",
+                  "title": "8折"
+                }
+              ],
+              "price": "3.50",
+              "availableStock": 4,
+              "name": "包装红洋葱",
+              "discountPrice": "2.80",
+              "id": 1059920860204236800,
+              "type": {},
+              "brand": "",
+              "sid": "1059920860204236800"
+            },
+            {
+              "image": "/upload/image/201811/69e35629-6572-4d94-a20f-3f99bea5fbd9.jpg",
+              "unit": "240g-260g",
+              "promotions": [],
+              "price": "28.80",
+              "availableStock": 9,
+              "name": "A级-优质水晶柳（牛肉）",
+              "discountPrice": "0.00",
+              "id": 1059196084657586176,
+              "type": {},
+              "brand": "",
+              "sid": "1059196084657586176"
+            }
+          ],
+          "sid": "945126128601792512"
+        },
+        {
+          "name": "休闲零食",
+          "image": "/upload/image/201809/f293b706-cbe0-4628-9aca-df6e21be608c.png",
+          "id": 945126139603451904,
+          "children": [
+            {
+              "image": "/upload/image/201807/cd554ecc-9223-4449-9f4e-8fdb5835fa12.jpg",
+              "unit": "60g/包",
+              "promotions": [],
+              "price": "2.50",
+              "availableStock": 10,
+              "name": "洽洽怪味花生麻辣",
+              "discountPrice": "0.00",
+              "id": 1022058878889623552,
+              "type": {},
+              "brand": "洽洽",
+              "sid": "1022058878889623552"
+            },
+            {
+              "image": "/upload/image/201807/1cead6b4-4445-479c-b900-1b4497793c3c.jpg",
+              "unit": "570g/包",
+              "promotions": [],
+              "price": "18.00",
+              "availableStock": 9,
+              "name": "思朗纤麸无糖消化饼",
+              "discountPrice": "0.00",
+              "id": 1017589428543029248,
+              "type": {},
+              "brand": "思朗",
+              "sid": "1017589428543029248"
+            },
+            {
+              "image": "/upload/image/201807/634b0bff-d0f8-44f1-bdb4-3b46e87dd02d.jpg",
+              "unit": "570g/包",
+              "promotions": [],
+              "price": "18.00",
+              "availableStock": 14,
+              "name": "思朗纤麸高纤消化饼",
+              "discountPrice": "0.00",
+              "id": 1017589427939049472,
+              "type": {},
+              "brand": "思朗",
+              "sid": "1017589427939049472"
+            },
+            {
+              "image": "/upload/image/201803/4c0334b7-c770-4679-8777-e0446b23a601.jpg",
+              "unit": "18g/包",
+              "promotions": [],
+              "price": "1.00",
+              "availableStock": 21,
+              "name": "海鲜风味卜卜星",
+              "discountPrice": "0.00",
+              "id": 971286828864765952,
+              "type": {},
+              "brand": "卜卜星",
+              "sid": "971286828864765952"
+            },
+            {
+              "image": "/upload/image/201803/637a0192-9861-4e35-9ced-d9636324e338.jpg",
+              "unit": "104g/桶",
+              "promotions": [],
+              "price": "8.00",
+              "availableStock": 9,
+              "name": "乐事无限田园番茄薯片",
+              "discountPrice": "0.00",
+              "id": 971286828525027328,
+              "type": {},
+              "brand": "乐事",
+              "sid": "971286828525027328"
+            }
+          ],
+          "sid": "945126139603451904"
+        },
+        {
+          "name": "饮料冲调",
+          "image": "/upload/image/201809/3e2a97f8-8240-4e21-9e19-52760d4bae7d.png",
+          "id": 945126176089702400,
+          "children": [
+            {
+              "image": "/upload/image/201810/ab83c109-07c0-4b8b-8fc8-ab7bd6644077.jpg",
+              "unit": "200ml*16/箱",
+              "promotions": [],
+              "price": "53.00",
+              "availableStock": 2,
+              "name": "燕塘纯牛奶",
+              "discountPrice": "0.00",
+              "id": 1056734866780979200,
+              "type": {},
+              "brand": "燕塘",
+              "sid": "1056734866780979200"
+            },
+            {
+              "image": "/upload/image/201802/d22b2f53-4058-48ad-8fda-7af77d7db65b.jpg",
+              "unit": "330ml/罐",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 12,
+              "name": "雪碧罐装",
+              "discountPrice": "0.00",
+              "id": 147,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "147"
+            },
+            {
+              "image": "/upload/image/201801/1cb270d2-76d9-4479-84e2-c20e896906f2.jpg",
+              "unit": "330ml/听",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 36,
+              "name": "可口可乐汽水罐装",
+              "discountPrice": "0.00",
+              "id": 138,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "138"
+            },
+            {
+              "image": "/upload/image/201801/bbeea27f-0ae8-46b1-a5ca-1ef212e7aa8f.jpg",
+              "unit": "450ml/瓶",
+              "promotions": [],
+              "price": "3.00",
+              "availableStock": 4,
+              "name": "美汁源果粒橙",
+              "discountPrice": "0.00",
+              "id": 131,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "131"
+            },
+            {
+              "image": "/upload/image/201801/b51d669d-78aa-45f6-9eb7-70e5e2785ed8.jpg",
+              "unit": "2L/瓶",
+              "promotions": [],
+              "price": "6.50",
+              "availableStock": 7,
+              "name": "百事可乐",
+              "discountPrice": "0.00",
+              "id": 121,
+              "type": {},
+              "brand": "百事可乐",
+              "sid": "121"
+            }
+          ],
+          "sid": "945126176089702400"
+        },
+        {
+          "name": "粮油调味",
+          "image": "/upload/image/201809/c53ccdf2-3259-4e1e-8a22-b745f0d0bb5a.png",
+          "id": 945126264354635776,
+          "children": [
+            {
+              "image": "/upload/image/201811/9c06b157-85e3-44a3-b29a-cd7ad166769d.png",
+              "unit": "1套",
+              "promotions": [],
+              "price": "148.00",
+              "availableStock": 4,
+              "name": "恒大兴安套餐",
+              "discountPrice": "0.00",
+              "id": 1056727317377712128,
+              "type": {},
+              "brand": "恒大兴安",
+              "sid": "1056727317377712128"
+            },
+            {
+              "image": "/upload/image/201807/dd4a4445-df33-45d2-b85a-4cf3d8785757.jpg",
+              "unit": "454g/包",
+              "promotions": [],
+              "price": "12.00",
+              "availableStock": 9,
+              "name": "优级白砂糖",
+              "discountPrice": "0.00",
+              "id": 1018752088995266560,
+              "type": {},
+              "brand": "太古",
+              "sid": "1018752088995266560"
+            },
+            {
+              "image": "/upload/image/201802/2c44c71b-3d2e-4cbd-b982-9ac202690287.jpg",
+              "unit": "5kg/包",
+              "promotions": [],
+              "price": "47.00",
+              "availableStock": 2,
+              "name": "金龙鱼优质油粘米",
+              "discountPrice": "0.00",
+              "id": 966915525026250752,
+              "type": {},
+              "brand": "金龙鱼",
+              "sid": "966915525026250752"
+            },
+            {
+              "image": "/upload/image/201802/25579098-d4dc-4111-986c-b2b32ed5ad17.jpg",
+              "unit": "5L/瓶",
+              "promotions": [],
+              "price": "115.00",
+              "availableStock": 2,
+              "name": "金龙鱼特香花生油",
+              "discountPrice": "0.00",
+              "id": 1471,
+              "type": {},
+              "brand": "金龙鱼",
+              "sid": "1471"
+            },
+            {
+              "image": "/upload/image/201802/02ba503a-d17a-431d-813b-ee23700e0e93.jpg",
+              "unit": "250g/袋",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 22,
+              "name": "加碘低钠盐",
+              "discountPrice": "0.00",
+              "id": 1325,
+              "type": {},
+              "brand": "广东盐业",
+              "sid": "1325"
+            }
+          ],
+          "sid": "945126264354635776"
+        },
+        {
+          "name": "家居用品",
+          "image": "/upload/image/201809/9f0ec4c7-b79f-435d-9242-6fcd8a9ce54e.png",
+          "id": 945126242204516352,
+          "children": [
+            {
+              "image": "/upload/image/201807/20c75dfd-77ab-4eb4-96dc-26bd18fb1fc1.jpg",
+              "unit": "3只/盒",
+              "promotions": [],
+              "price": "19.00",
+              "availableStock": 6,
+              "name": "凸点螺纹装避孕套",
+              "discountPrice": "0.00",
+              "id": 1022036230168117248,
+              "type": {},
+              "brand": "杜蕾斯",
+              "sid": "1022036230168117248"
+            },
+            {
+              "image": "/upload/image/201807/63199186-4a0b-459e-9af1-967313f4c68c.jpg",
+              "unit": "3片/包",
+              "promotions": [],
+              "price": "10.00",
+              "availableStock": 3,
+              "name": "妙洁棉柔抹布3片装",
+              "discountPrice": "0.00",
+              "id": 1019114478324678656,
+              "type": {},
+              "brand": "妙洁",
+              "sid": "1019114478324678656"
+            },
+            {
+              "image": "/upload/image/201808/0331350e-ad1d-4492-9202-3c2450eb7c1c.jpg",
+              "unit": "12支/包",
+              "promotions": [],
+              "price": "4.00",
+              "availableStock": 18,
+              "name": "12支装一次性餐具叉",
+              "discountPrice": "0.00",
+              "id": 1019114476827312128,
+              "type": {},
+              "brand": "芳草地",
+              "sid": "1019114476827312128"
+            },
+            {
+              "image": "/upload/image/201808/43f6a25e-dfb9-42ab-9310-11da5ac777aa.jpg",
+              "unit": "50支/包",
+              "promotions": [],
+              "price": "4.00",
+              "availableStock": 4,
+              "name": "一次性吸管50支装独立包装",
+              "discountPrice": "0.00",
+              "id": 1019106927654731776,
+              "type": {},
+              "brand": "芳草地",
+              "sid": "1019106927654731776"
+            },
+            {
+              "image": "/upload/image/201808/731236e9-7d78-428f-aacc-121e656e1349.jpg",
+              "unit": "100支/包",
+              "promotions": [],
+              "price": "5.00",
+              "availableStock": 2,
+              "name": "一次性吸管100支装",
+              "discountPrice": "0.00",
+              "id": 1019106927507931136,
+              "type": {},
+              "brand": "芳草地",
+              "sid": "1019106927507931136"
+            }
+          ],
+          "sid": "945126242204516352"
+        }
+      ],
+      "hotSearch": ["可乐", "面", "啤酒", "鸡蛋", "辣条", "薯片", "花生"],
+      "wallAdImages": [],
+      "extra": [
+        {
+          "availableStock": 30,
+          "brand": "鼎湖山泉",
+          "discountPrice": "18.00",
+          "id": 1158,
+          "image": "/upload/image/201802/18b5fc86-e799-4f45-a49d-0a0cd37c504b.jpg",
+          "marketPrice": "0.00",
+          "name": "鼎湖山泉水桶装水",
+          "price": 22.5,
+          "promotions": [
+            {
+              "name": "购买一桶和两桶，打8折~",
+              "title": "8折"
+            }
+          ],
+          "sid": "1158",
+          "type": "general",
+          "unit": "19L/桶",
+          "weight": null
+        },
+        {
+          "availableStock": 95,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 1824,
+          "image": "/upload/image/201801/955a52ec-0fe4-45be-82d0-609f4a89c430.jpg",
+          "marketPrice": "0.00",
+          "name": "虾味条",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "1824",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": null
+        },
+        {
+          "availableStock": 33,
+          "brand": "哈尔滨",
+          "discountPrice": "0.00",
+          "id": 575,
+          "image": "/upload/image/201802/811509d9-ffe9-4187-a867-0551b85a9fe5.jpg",
+          "marketPrice": "0.00",
+          "name": "哈尔滨冰纯啤酒支装",
+          "price": 5.5,
+          "promotions": [],
+          "sid": "575",
+          "type": "general",
+          "unit": "600ml/瓶",
+          "weight": null
+        },
+        {
+          "availableStock": 61,
+          "brand": "益力多",
+          "discountPrice": "0.00",
+          "id": 432,
+          "image": "/upload/image/201801/99e7103f-cddf-48c3-876d-27e29f2b2428.jpg",
+          "marketPrice": "0.00",
+          "name": "益力多乳酸菌饮品",
+          "price": 10.9,
+          "promotions": [],
+          "sid": "432",
+          "type": "general",
+          "unit": "500ml/排",
+          "weight": null
+        },
+        {
+          "availableStock": 27,
+          "brand": "怡宝",
+          "discountPrice": "0.00",
+          "id": 1156,
+          "image": "/upload/image/201802/d7bf555b-9e3d-45f5-818f-8306ac6c428b.jpg",
+          "marketPrice": "0.00",
+          "name": "怡宝纯净水桶装水",
+          "price": 20,
+          "promotions": [],
+          "sid": "1156",
+          "type": "general",
+          "unit": "18.9L/桶",
+          "weight": null
+        },
+        {
+          "availableStock": 5,
+          "brand": "哈尔滨",
+          "discountPrice": "0.00",
+          "id": 573,
+          "image": "/upload/image/201801/aea9d401-cb6c-4ac6-b2f3-7922fff78106.jpg",
+          "marketPrice": "0.00",
+          "name": "冰纯啤酒",
+          "price": 5,
+          "promotions": [],
+          "sid": "573",
+          "type": "general",
+          "unit": "500ml/罐",
+          "weight": null
+        }
+      ],
+      "middleAds": [],
+      "store": {
+        "address": "嘉信城市花园一期会所旁",
+        "id": 2,
+        "name": "嘉信花园一期店",
+        "type": "self",
+        "work_hours": "07:00-23:59"
+      },
+      "cppStoreAdImages": [
+        {
+          "image": "/upload/image/201811/e11bb2e9-71b8-4801-9c2e-2840e128f4c3.jpg",
+          "orders": null,
+          "phone": null,
+          "title": "双11弹窗",
+          "type": 2,
+          "url": null
+        }
+      ],
+      "storeId": 2,
+      "bottomAds": [],
+      "interactionImages": [
+        {
+          "image": "/upload/image/201810/2dfd2343-6d03-44b0-aae4-fd732eddcf80.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "零食周",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1057432816746233856"
+        },
+        {
+          "image": "/upload/image/201811/4b74b0e7-d5de-4fac-b93e-08c76ead753b.jpg",
+          "orders": 2,
+          "phone": null,
+          "title": "方便美食",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=945126128601792512&subCategoryId=1046579999756255232"
+        },
+        {
+          "image": "/upload/image/201810/4bff733b-0ad7-447d-b4d9-88a65d44be4b.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "0卡路里",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=945126176089702400&subCategoryId=945126181051564032"
+        },
+        {
+          "image": "/upload/image/201810/fa8f95cf-40a0-481a-a377-6cbe741a6ad2.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "桶装水活动",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=945126262454616064"
+        }
+      ],
+      "storeAdImages": [
+        {
+          "image": "/upload/image/201811/21cbec88-0b77-439b-9f68-690a701fc82c.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "桶装水8折",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=945126262454616064"
+        },
+        {
+          "image": "/upload/image/201811/9fa6457c-c01e-4aeb-bb63-2eda3f5d42e8.jpg",
+          "orders": 2,
+          "phone": null,
+          "title": "生鲜4.9折",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=945126128601792512"
+        },
+        {
+          "image": "/upload/image/201811/e3fca2db-b077-4e15-8e99-2e6b04574dd9.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "双十一活动",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1059344098663596032"
+        }
+      ]
+    },
+    "currentTime": "2018-11-09 09:19:50",
+    "code": 1,
+    "siteImageUrl": "https://fsomengo.oss-cn-shenzhen.aliyuncs.com",
+    "siteName": "送哟",
+    "message": null
+  },
+  {
+    "id": 4,
+    "datum": {
+      "storeProductCategory": [
+        {
+          "image": "/upload/image/201809/db37045b-d31c-499d-acb8-57a3fa49b2e8.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/39a782bd-4006-4447-a87d-4089a95491e2.jpg",
+              "unit": "600g-650g",
+              "promotions": [
+                {
+                  "name": "橙子",
+                  "title": "8折"
+                }
+              ],
+              "price": "10.80",
+              "availableStock": 8,
+              "name": "12糖赣南脐橙",
+              "discountPrice": "8.64",
+              "id": 1059920862775345152,
+              "type": {},
+              "brand": "",
+              "sid": "1059920862775345152"
+            },
+            {
+              "image": "/upload/image/201811/1991ed24-52cf-4286-b0f6-553c992f1447.jpg",
+              "unit": "1000g-1300g",
+              "promotions": [
+                {
+                  "name": "沙田柚",
+                  "title": "特价"
+                }
+              ],
+              "price": "13.80",
+              "availableStock": 7,
+              "name": "梅县沙田柚",
+              "discountPrice": "9.89",
+              "id": 1059920862334943232,
+              "type": {},
+              "brand": "",
+              "sid": "1059920862334943232"
+            },
+            {
+              "image": "/upload/image/201811/b41c1bde-1539-4780-aed2-961a1addc1f7.jpg",
+              "unit": "600g-700g",
+              "promotions": [
+                {
+                  "name": "土豆",
+                  "title": "8折"
+                }
+              ],
+              "price": "4.50",
+              "availableStock": 4,
+              "name": "包装土豆",
+              "discountPrice": "3.60",
+              "id": 1059920861693214720,
+              "type": {},
+              "brand": "",
+              "sid": "1059920861693214720"
+            },
+            {
+              "image": "/upload/image/201811/69e35629-6572-4d94-a20f-3f99bea5fbd9.jpg",
+              "unit": "240g-260g",
+              "promotions": [],
+              "price": "28.80",
+              "availableStock": 10,
+              "name": "A级-优质水晶柳（牛肉）",
+              "discountPrice": "0.00",
+              "id": 1059196085525807104,
+              "type": {},
+              "brand": "",
+              "sid": "1059196085525807104"
+            },
+            {
+              "image": "/upload/image/201811/d08f608d-0a85-4aa3-96e0-85a056f99e85.jpg",
+              "unit": "250g-300g",
+              "promotions": [],
+              "price": "4.50",
+              "availableStock": 9,
+              "name": "A级-精品茼蒿",
+              "discountPrice": "0.00",
+              "id": 1059196085349646336,
+              "type": {},
+              "brand": "",
+              "sid": "1059196085349646336"
+            }
+          ],
+          "name": "每日生鲜",
+          "id": 988713780558954496,
+          "sid": "988713780558954496"
+        },
+        {
+          "image": "/upload/image/201809/f293b706-cbe0-4628-9aca-df6e21be608c.png",
+          "children": [
+            {
+              "image": "/upload/image/201801/ff7bde25-dc95-49f1-8e3c-632c61a4415c.jpg",
+              "unit": "55g/盒",
+              "promotions": [],
+              "price": "6.00",
+              "availableStock": 8,
+              "name": "巧克力味巧脆卷",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988595929420398592,
+              "type": {},
+              "brand": "奥利奥",
+              "sid": "988595929420398592"
+            },
+            {
+              "image": "/upload/image/201802/a7f6b37b-a6d2-42be-aaf8-9a554fbdf637.jpg",
+              "unit": "95g/盒",
+              "promotions": [],
+              "price": "8.00",
+              "availableStock": 6,
+              "name": "奥利奥草莓酸奶巧轻脆",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988595929026134016,
+              "type": {},
+              "brand": "奥利奥",
+              "sid": "988595929026134016"
+            },
+            {
+              "image": "/upload/image/201801/7bda84ae-bc19-4034-8bc6-b77f48f7b104.jpg",
+              "unit": "33g/盒",
+              "promotions": [],
+              "price": "5.00",
+              "availableStock": 7,
+              "name": "好多鱼蜜香鸡翅味",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988595924676640768,
+              "type": {},
+              "brand": "好丽友",
+              "sid": "988595924676640768"
+            },
+            {
+              "image": "/upload/image/201802/2ec7a10b-4901-4171-8ae2-cc543d490ad9.jpg",
+              "unit": "108g/包",
+              "promotions": [],
+              "price": "6.00",
+              "availableStock": 4,
+              "name": "洽洽山核桃味瓜子 ",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988595918733312000,
+              "type": {},
+              "brand": "洽洽",
+              "sid": "988595918733312000"
+            },
+            {
+              "image": "/upload/image/201801/68846459-506d-4cbc-a110-b01faae75aee.jpg",
+              "unit": "108g/包",
+              "promotions": [],
+              "price": "6.00",
+              "availableStock": 4,
+              "name": "焦糖瓜子    ",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988595918649425920,
+              "type": {},
+              "brand": "洽洽",
+              "sid": "988595918649425920"
+            }
+          ],
+          "name": "休闲零食",
+          "id": 988713794316271616,
+          "sid": "988713794316271616"
+        },
+        {
+          "image": "/upload/image/201809/3e2a97f8-8240-4e21-9e19-52760d4bae7d.png",
+          "children": [
+            {
+              "image": "/upload/image/201810/7735fb27-9bda-4c27-bbc3-759a6f1b5229.jpg",
+              "unit": "500ml/瓶",
+              "promotions": [],
+              "price": "6.00",
+              "availableStock": 8,
+              "name": "元気森林桃香无糖燃茶",
+              "discountPrice": "0.00",
+              "id": 1052809004838813696,
+              "type": {},
+              "brand": "元気森林",
+              "sid": "1052809004838813696"
+            },
+            {
+              "image": "/upload/image/201802/d22b2f53-4058-48ad-8fda-7af77d7db65b.jpg",
+              "unit": "330ml/罐",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 32,
+              "name": "雪碧罐装",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988595887460581376,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "988595887460581376"
+            },
+            {
+              "image": "/upload/image/201801/1cb270d2-76d9-4479-84e2-c20e896906f2.jpg",
+              "unit": "330ml/听",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 10,
+              "name": "可口可乐汽水罐装",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988595886718189568,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "988595886718189568"
+            },
+            {
+              "image": "/upload/image/201801/bbeea27f-0ae8-46b1-a5ca-1ef212e7aa8f.jpg",
+              "unit": "450ml/瓶",
+              "promotions": [],
+              "price": "3.00",
+              "availableStock": 6,
+              "name": "美汁源果粒橙",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988595886151958528,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "988595886151958528"
+            }
+          ],
+          "name": "饮料冲调",
+          "id": 988713826947956736,
+          "sid": "988713826947956736"
+        },
+        {
+          "image": "/upload/image/201809/c53ccdf2-3259-4e1e-8a22-b745f0d0bb5a.png",
+          "children": [
+            {
+              "image": "/upload/image/201809/1ba34a34-22f2-4f04-9410-28024d63a497.jpg",
+              "unit": "100g/包",
+              "promotions": [],
+              "price": "27.50",
+              "availableStock": 5,
+              "name": "香菇",
+              "discountPrice": "0.00",
+              "id": 1037520770575630336,
+              "type": {},
+              "brand": "嘉丰志成",
+              "sid": "1037520770575630336"
+            },
+            {
+              "image": "/upload/image/201809/a7e9eb90-00d7-41b0-ace2-5888e076df7a.jpg",
+              "unit": "200g/包",
+              "promotions": [],
+              "price": "42.00",
+              "availableStock": 5,
+              "name": "百合汤料",
+              "discountPrice": "0.00",
+              "id": 1037520770214920192,
+              "type": {},
+              "brand": "嘉丰志成",
+              "sid": "1037520770214920192"
+            },
+            {
+              "image": "/upload/image/201809/a24d5820-45bb-4e7c-bac8-e350fe7e85a9.jpg",
+              "unit": "200g/包",
+              "promotions": [],
+              "price": "38.00",
+              "availableStock": 5,
+              "name": "白莲子汤料",
+              "discountPrice": "0.00",
+              "id": 1037520769778712576,
+              "type": {},
+              "brand": "嘉丰志成",
+              "sid": "1037520769778712576"
+            },
+            {
+              "image": "/upload/image/201809/c24df23d-98e1-4e50-8103-926498c47bc2.jpg",
+              "unit": "250g/包",
+              "promotions": [],
+              "price": "11.50",
+              "availableStock": 5,
+              "name": "蜜枣汤料",
+              "discountPrice": "0.00",
+              "id": 1037520769459945472,
+              "type": {},
+              "brand": "嘉丰志成",
+              "sid": "1037520769459945472"
+            },
+            {
+              "image": "/upload/image/201809/28c581ba-3a9f-40d7-86bd-8b73e2b1c2d4.jpg",
+              "unit": "70g/包",
+              "promotions": [],
+              "price": "18.50",
+              "availableStock": 4,
+              "name": "百合剑花煲瘦肉汤料",
+              "discountPrice": "0.00",
+              "id": 1037520769283784705,
+              "type": {},
+              "brand": "嘉丰志成",
+              "sid": "1037520769283784705"
+            }
+          ],
+          "name": "粮油调味",
+          "id": 988713900180504576,
+          "sid": "988713900180504576"
+        },
+        {
+          "image": "/upload/image/201809/9f0ec4c7-b79f-435d-9242-6fcd8a9ce54e.png",
+          "children": [
+            {
+              "image": "/upload/image/201804/6f7807e1-89ad-42b2-95ef-91e34225bd7d.jpg",
+              "unit": "1把",
+              "promotions": [],
+              "price": "3.50",
+              "availableStock": 3,
+              "name": "晨光经济简易美工刀",
+              "discountPrice": "0.00",
+              "weight": 7,
+              "id": 988596135461388288,
+              "type": {},
+              "brand": "晨光",
+              "sid": "988596135461388288"
+            },
+            {
+              "image": "/upload/image/201804/5ee04547-2c9c-4a47-8899-de32688f5600.jpg",
+              "unit": "1支",
+              "promotions": [],
+              "price": "1.50",
+              "availableStock": 14,
+              "name": "晨光中性笔风速Q7黑0.5",
+              "discountPrice": "0.00",
+              "weight": 7,
+              "id": 988596132336631808,
+              "type": {},
+              "brand": "晨光",
+              "sid": "988596132336631808"
+            },
+            {
+              "image": "/upload/image/201803/55098089-651a-4948-a80f-c23f7bdddee4.jpg",
+              "unit": "24包/提",
+              "promotions": [],
+              "price": "14.50",
+              "availableStock": 5,
+              "name": "维达超韧迷你无香手帕纸",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596117203582976,
+              "type": {},
+              "brand": "维达",
+              "sid": "988596117203582976"
+            },
+            {
+              "image": "/upload/image/201801/32342586-9a4e-4716-b302-ca7ff56f593d.jpg",
+              "unit": "2粒/卡",
+              "promotions": [],
+              "price": "18.00",
+              "availableStock": 15,
+              "name": "1号电池",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596071091404800,
+              "type": {},
+              "brand": "南孚",
+              "sid": "988596071091404800"
+            },
+            {
+              "image": "/upload/image/201804/726ffb44-b5fc-404e-b8c4-34d7d7d72e6a.jpg",
+              "unit": "91g*10卷/条",
+              "promotions": [],
+              "price": "19.00",
+              "availableStock": 5,
+              "name": "新太阳特惠卷纸",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988595957094416384,
+              "type": {},
+              "brand": "洁柔",
+              "sid": "988595957094416384"
+            }
+          ],
+          "name": "家居用品",
+          "id": 988713878600810496,
+          "sid": "988713878600810496"
+        }
+      ],
+      "hotSearch": ["可乐", "面", "啤酒", "鸡蛋", "辣条", "薯片", "花生"],
+      "wallAdImages": [],
+      "extra": [
+        {
+          "availableStock": 31,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 988596063789121536,
+          "image": "/upload/image/201801/955a52ec-0fe4-45be-82d0-609f4a89c430.jpg",
+          "marketPrice": "0.00",
+          "name": "虾味条",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988596063789121536",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 1
+        },
+        {
+          "availableStock": 39,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 988596063935922176,
+          "image": "/upload/image/201801/599d0cae-8c8e-47f0-a673-1ab962fb6463.jpg",
+          "marketPrice": "0.00",
+          "name": "蟹味粒",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988596063935922176",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 1
+        },
+        {
+          "availableStock": 71,
+          "brand": "徐福记",
+          "discountPrice": "0.00",
+          "id": 988595954040963072,
+          "image": "/upload/image/201711/f9222444-f2ad-4cc7-9f9f-a42565a9b35c_thumbnail.jpg",
+          "marketPrice": "0.00",
+          "name": "徐福记果味多嘟棒棒糖",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988595954040963072",
+          "type": "general",
+          "unit": "9.5g/个",
+          "weight": 1
+        },
+        {
+          "availableStock": 91,
+          "brand": "徐福记",
+          "discountPrice": "0.00",
+          "id": 988595954988875776,
+          "image": "/upload/image/201711/f0fe00a6-038c-4706-909a-46048672facc_thumbnail.jpg",
+          "marketPrice": "0.00",
+          "name": "徐福记嘟嘟泡水果味泡泡糖",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988595954988875776",
+          "type": "general",
+          "unit": "9g/个",
+          "weight": 1
+        },
+        {
+          "availableStock": 49,
+          "brand": "益力多",
+          "discountPrice": "0.00",
+          "id": 988595911355531264,
+          "image": "/upload/image/201801/99e7103f-cddf-48c3-876d-27e29f2b2428.jpg",
+          "marketPrice": "0.00",
+          "name": "益力多乳酸菌饮品",
+          "price": 10.9,
+          "promotions": [],
+          "sid": "988595911355531264",
+          "type": "general",
+          "unit": "500ml/排",
+          "weight": 1
+        },
+        {
+          "availableStock": 7,
+          "brand": "鼎湖山泉",
+          "discountPrice": "0.00",
+          "id": 988595983661137920,
+          "image": "/upload/image/201802/18b5fc86-e799-4f45-a49d-0a0cd37c504b.jpg",
+          "marketPrice": "0.00",
+          "name": "鼎湖山泉水桶装水",
+          "price": 22,
+          "promotions": [],
+          "sid": "988595983661137920",
+          "type": "general",
+          "unit": "19L/桶",
+          "weight": 1
+        }
+      ],
+      "middleAds": [],
+      "store": {
+        "address": "大良保利中悦花园西门22号商铺",
+        "id": 4,
+        "name": "保利中悦店",
+        "type": "self",
+        "work_hours": "07:00-23:59"
+      },
+      "cppStoreAdImages": [
+        {
+          "image": "/upload/image/201811/148c8998-db01-424e-8d2d-d1feaa4b7b59.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "双11弹窗",
+          "type": 2,
+          "url": null
+        }
+      ],
+      "storeId": 4,
+      "bottomAds": [],
+      "interactionImages": [
+        {
+          "image": "/upload/image/201810/77ff57ec-a1c5-4b03-a7f1-be5e715362cb.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "零食周",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1057468357357338624"
+        },
+        {
+          "image": "/upload/image/201811/66052d77-bd38-4bf8-b736-b9e95ad9c3fc.jpg",
+          "orders": 2,
+          "phone": null,
+          "title": "方便美食",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988713780558954496&subCategoryId=1046580474232700929"
+        },
+        {
+          "image": "/upload/image/201810/8b41c772-eee6-4c19-bb1c-f67c5adb8d16.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "0卡路里",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988713826947956736&subCategoryId=988713829460344832"
+        },
+        {
+          "image": "/upload/image/201810/feb9876f-224f-4e64-937f-35138a6ac2a0.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "桶装水活动",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988713899387781120"
+        }
+      ],
+      "storeAdImages": [
+        {
+          "image": "/upload/image/201811/a67a1c82-13c6-481d-a509-3595b331fc86.jpg",
+          "orders": null,
+          "phone": null,
+          "title": "双十一活动",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1057164789471510528"
+        },
+        {
+          "image": "/upload/image/201811/8bd7e807-a3af-4043-abfc-b506c2c8bbb7.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "桶装水",
+          "type": 2,
+          "url": "http://www.omengo.com/web/?#/product-detail?skuId=1040502914994405376"
+        },
+        {
+          "image": "/upload/image/201810/8ff85d0a-d66d-4aee-aec1-7f80307a8bac.jpg",
+          "orders": 5,
+          "phone": null,
+          "title": "生鲜4.9折",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988713780558954496"
+        }
+      ]
+    },
+    "currentTime": "2018-11-09 09:20:31",
+    "code": 1,
+    "siteImageUrl": "https://fsomengo.oss-cn-shenzhen.aliyuncs.com",
+    "siteName": "送哟",
+    "message": null
+  },
+  {
+    "id": 5,
+    "datum": {
+      "storeProductCategory": [
+        {
+          "image": "/upload/image/201809/db37045b-d31c-499d-acb8-57a3fa49b2e8.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/39a782bd-4006-4447-a87d-4089a95491e2.jpg",
+              "unit": "600g-650g",
+              "promotions": [
+                {
+                  "name": "橙子",
+                  "title": "8折"
+                }
+              ],
+              "price": "10.80",
+              "availableStock": 5,
+              "name": "12糖赣南脐橙",
+              "discountPrice": "8.64",
+              "id": 1059920864323043328,
+              "type": {},
+              "brand": "",
+              "sid": "1059920864323043328"
+            },
+            {
+              "image": "/upload/image/201811/23dfe999-286d-4b6c-a861-ee0ce23bfb7b.jpg",
+              "unit": "350g-380g",
+              "promotions": [
+                {
+                  "name": "山楂",
+                  "title": "8折"
+                }
+              ],
+              "price": "6.90",
+              "availableStock": 1,
+              "name": "精品山楂",
+              "discountPrice": "5.52",
+              "id": 1059920864172048384,
+              "type": {},
+              "brand": "",
+              "sid": "1059920864172048384"
+            },
+            {
+              "image": "/upload/image/201811/5f5df80a-f1de-4c4c-9f79-fb2f1e417f23.jpg",
+              "unit": "520g-550g",
+              "promotions": [
+                {
+                  "name": "苹果",
+                  "title": "8折"
+                }
+              ],
+              "price": "12.80",
+              "availableStock": 3,
+              "name": "精品苹果",
+              "discountPrice": "10.24",
+              "id": 1059920864012664832,
+              "type": {},
+              "brand": "",
+              "sid": "1059920864012664832"
+            },
+            {
+              "image": "/upload/image/201811/1991ed24-52cf-4286-b0f6-553c992f1447.jpg",
+              "unit": "1000g-1300g",
+              "promotions": [
+                {
+                  "name": "沙田柚",
+                  "title": "特价"
+                }
+              ],
+              "price": "13.80",
+              "availableStock": 4,
+              "name": "梅县沙田柚",
+              "discountPrice": "9.89",
+              "id": 1059920863865864192,
+              "type": {},
+              "brand": "",
+              "sid": "1059920863865864192"
+            },
+            {
+              "image": "/upload/image/201811/4cda4c8b-b1f0-43ad-bb1e-c92dd0ec8507.jpg",
+              "unit": "430g-450g",
+              "promotions": [
+                {
+                  "name": "胡萝卜",
+                  "title": "8折"
+                }
+              ],
+              "price": "4.50",
+              "availableStock": 5,
+              "name": "包装带泥红萝卜",
+              "discountPrice": "3.60",
+              "id": 1059920863710674944,
+              "type": {},
+              "brand": "",
+              "sid": "1059920863710674944"
+            }
+          ],
+          "name": "每日生鲜",
+          "id": 988714192838066176,
+          "sid": "988714192838066176"
+        },
+        {
+          "image": "/upload/image/201809/f293b706-cbe0-4628-9aca-df6e21be608c.png",
+          "children": [
+            {
+              "image": "/upload/image/201803/3936762c-d3c4-495c-bee1-817cd4c79ccb.jpg",
+              "unit": "9g/包",
+              "promotions": [],
+              "price": "1.00",
+              "availableStock": 32,
+              "name": "原果味彩虹糖",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596365506379776,
+              "type": {},
+              "brand": "彩虹糖",
+              "sid": "988596365506379776"
+            },
+            {
+              "image": "/upload/image/201801/ff7bde25-dc95-49f1-8e3c-632c61a4415c.jpg",
+              "unit": "55g/盒",
+              "promotions": [],
+              "price": "6.00",
+              "availableStock": 7,
+              "name": "巧克力味巧脆卷",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596184908038144,
+              "type": {},
+              "brand": "奥利奥",
+              "sid": "988596184908038144"
+            },
+            {
+              "image": "/upload/image/201801/405c5cf3-8622-440b-917b-3d20b77949b2.jpg",
+              "unit": "47g/盒",
+              "promotions": [],
+              "price": "5.50",
+              "availableStock": 8,
+              "name": "提拉米苏味巧心结",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596184723488768,
+              "type": {},
+              "brand": "奥利奥",
+              "sid": "988596184723488768"
+            },
+            {
+              "image": "/upload/image/201801/fad07734-dfe9-4520-8c1a-caf2f2de6042.jpg",
+              "unit": "55g/杯",
+              "promotions": [],
+              "price": "6.00",
+              "availableStock": 4,
+              "name": "原味夹心小饼干",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596182190129152,
+              "type": {},
+              "brand": "奥利奥",
+              "sid": "988596182190129152"
+            },
+            {
+              "image": "/upload/image/201801/21f81008-f1c7-4ec8-8c4a-d0e6b4f23a86.jpg",
+              "unit": "20g/包",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 1,
+              "name": "原味小小酥",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596162623700992,
+              "type": {},
+              "brand": "旺旺",
+              "sid": "988596162623700992"
+            }
+          ],
+          "name": "休闲零食",
+          "id": 988714206410833920,
+          "sid": "988714206410833920"
+        },
+        {
+          "image": "/upload/image/201809/3e2a97f8-8240-4e21-9e19-52760d4bae7d.png",
+          "children": [
+            {
+              "image": "/upload/image/201802/d22b2f53-4058-48ad-8fda-7af77d7db65b.jpg",
+              "unit": "330ml/罐",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 17,
+              "name": "雪碧罐装",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596142608482304,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "988596142608482304"
+            },
+            {
+              "image": "/upload/image/201801/1cb270d2-76d9-4479-84e2-c20e896906f2.jpg",
+              "unit": "330ml/听",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 28,
+              "name": "可口可乐汽水罐装",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596141866090496,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "988596141866090496"
+            },
+            {
+              "image": "/upload/image/201801/bbeea27f-0ae8-46b1-a5ca-1ef212e7aa8f.jpg",
+              "unit": "450ml/瓶",
+              "promotions": [],
+              "price": "3.00",
+              "availableStock": 7,
+              "name": "美汁源果粒橙",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596141316636672,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "988596141316636672"
+            }
+          ],
+          "name": "饮料冲调",
+          "id": 988714239516475392,
+          "sid": "988714239516475392"
+        },
+        {
+          "image": "/upload/image/201809/c53ccdf2-3259-4e1e-8a22-b745f0d0bb5a.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/9c06b157-85e3-44a3-b29a-cd7ad166769d.png",
+              "unit": "1套",
+              "promotions": [],
+              "price": "148.00",
+              "availableStock": 4,
+              "name": "恒大兴安套餐",
+              "discountPrice": "0.00",
+              "id": 1056727322859667456,
+              "type": {},
+              "brand": "恒大兴安",
+              "sid": "1056727322859667456"
+            },
+            {
+              "image": "/upload/image/201802/ac91edc9-18fb-451b-b95c-3e8d06da04e3.jpg",
+              "unit": "900ml/瓶",
+              "promotions": [],
+              "price": "15.00",
+              "availableStock": 1,
+              "name": "金龙鱼玉米油",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596350167810048,
+              "type": {},
+              "brand": "金龙鱼",
+              "sid": "988596350167810048"
+            },
+            {
+              "image": "/upload/image/201802/02ba503a-d17a-431d-813b-ee23700e0e93.jpg",
+              "unit": "250g/袋",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 6,
+              "name": "加碘低钠盐",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596257691795456,
+              "type": {},
+              "brand": "广东盐业",
+              "sid": "988596257691795456"
+            },
+            {
+              "image": "/upload/image/201802/1e95dc87-b9da-4008-a8d0-8a1b6ffb18b8.jpg",
+              "unit": "48g/瓶",
+              "promotions": [],
+              "price": "10.50",
+              "availableStock": 10,
+              "name": "易厨烧烤撒料",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596161520599040,
+              "type": {},
+              "brand": "易厨",
+              "sid": "988596161520599040"
+            },
+            {
+              "image": "/upload/image/201801/3a7c93f8-89b9-401e-a11c-8c0f04a690d9.jpg",
+              "unit": "320g/袋",
+              "promotions": [],
+              "price": "8.00",
+              "availableStock": 3,
+              "name": "番茄沙司袋装",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596159331172352,
+              "type": {},
+              "brand": "亨氏",
+              "sid": "988596159331172352"
+            }
+          ],
+          "name": "粮油调味",
+          "id": 988714311138410496,
+          "sid": "988714311138410496"
+        },
+        {
+          "image": "/upload/image/201809/9f0ec4c7-b79f-435d-9242-6fcd8a9ce54e.png",
+          "children": [
+            {
+              "image": "/upload/image/201805/cd9007cc-2066-41ef-87b9-211368873b45.jpg",
+              "unit": "600ml/支",
+              "promotions": [],
+              "price": "17.00",
+              "availableStock": 4,
+              "name": "雷达杀虫气雾剂（双喷口）-清香",
+              "discountPrice": "0.00",
+              "id": 994019119177138176,
+              "type": {},
+              "brand": "雷达",
+              "sid": "994019119177138176"
+            },
+            {
+              "image": "/upload/image/201805/30eaeed6-2e92-402c-9313-a227993e5f84.jpg",
+              "unit": "500g/瓶",
+              "promotions": [],
+              "price": "4.50",
+              "availableStock": 6,
+              "name": "威猛先生洁厕液-清香",
+              "discountPrice": "0.00",
+              "id": 990387690501308416,
+              "type": {},
+              "brand": "威猛先生",
+              "sid": "990387690501308416"
+            },
+            {
+              "image": "/upload/image/201804/60ed5a00-d345-4699-ad0c-ca62c8037e30.jpg",
+              "unit": "1盒",
+              "promotions": [],
+              "price": "8.00",
+              "availableStock": 15,
+              "name": "晨光金属圆规",
+              "discountPrice": "0.00",
+              "weight": 7,
+              "id": 988596387497115648,
+              "type": {},
+              "brand": "晨光",
+              "sid": "988596387497115648"
+            },
+            {
+              "image": "/upload/image/201806/6029809f-db94-4456-ae66-305f48cd14ae.jpg",
+              "unit": "1包",
+              "promotions": [],
+              "price": "15.00",
+              "availableStock": 9,
+              "name": "时尚针线包",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596216428232704,
+              "type": {},
+              "brand": "清清美",
+              "sid": "988596216428232704"
+            },
+            {
+              "image": "/upload/image/201804/726ffb44-b5fc-404e-b8c4-34d7d7d72e6a.jpg",
+              "unit": "91g*10卷/条",
+              "promotions": [],
+              "price": "19.00",
+              "availableStock": 4,
+              "name": "新太阳特惠卷纸",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988596212728856576,
+              "type": {},
+              "brand": "洁柔",
+              "sid": "988596212728856576"
+            }
+          ],
+          "name": "家居用品",
+          "id": 988714290653429760,
+          "sid": "988714290653429760"
+        }
+      ],
+      "hotSearch": ["可乐", "面", "啤酒", "鸡蛋", "辣条", "薯片", "花生"],
+      "wallAdImages": [],
+      "extra": [
+        {
+          "availableStock": 7,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 988596317817143296,
+          "image": "/upload/image/201801/955a52ec-0fe4-45be-82d0-609f4a89c430.jpg",
+          "marketPrice": "0.00",
+          "name": "虾味条",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988596317817143296",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 1
+        },
+        {
+          "availableStock": 28,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 988596317934583808,
+          "image": "/upload/image/201801/599d0cae-8c8e-47f0-a673-1ab962fb6463.jpg",
+          "marketPrice": "0.00",
+          "name": "蟹味粒",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988596317934583808",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 1
+        },
+        {
+          "availableStock": 62,
+          "brand": "徐福记",
+          "discountPrice": "0.00",
+          "id": 988596209729929216,
+          "image": "/upload/image/201711/f9222444-f2ad-4cc7-9f9f-a42565a9b35c_thumbnail.jpg",
+          "marketPrice": "0.00",
+          "name": "徐福记果味多嘟棒棒糖",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988596209729929216",
+          "type": "general",
+          "unit": "9.5g/个",
+          "weight": 1
+        },
+        {
+          "availableStock": 37,
+          "brand": "徐福记",
+          "discountPrice": "0.00",
+          "id": 988596210619121664,
+          "image": "/upload/image/201711/f0fe00a6-038c-4706-909a-46048672facc_thumbnail.jpg",
+          "marketPrice": "0.00",
+          "name": "徐福记嘟嘟泡水果味泡泡糖",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988596210619121664",
+          "type": "general",
+          "unit": "9g/个",
+          "weight": 1
+        },
+        {
+          "availableStock": 13,
+          "brand": "鼎湖山泉",
+          "discountPrice": "0.00",
+          "id": 988596238901313536,
+          "image": "/upload/image/201802/18b5fc86-e799-4f45-a49d-0a0cd37c504b.jpg",
+          "marketPrice": "0.00",
+          "name": "鼎湖山泉水桶装水",
+          "price": 22,
+          "promotions": [],
+          "sid": "988596238901313536",
+          "type": "general",
+          "unit": "19L/桶",
+          "weight": 1
+        },
+        {
+          "availableStock": 18,
+          "brand": "益力多",
+          "discountPrice": "0.00",
+          "id": 988596166880919552,
+          "image": "/upload/image/201801/99e7103f-cddf-48c3-876d-27e29f2b2428.jpg",
+          "marketPrice": "0.00",
+          "name": "益力多乳酸菌饮品",
+          "price": 10.9,
+          "promotions": [],
+          "sid": "988596166880919552",
+          "type": "general",
+          "unit": "500ml/排",
+          "weight": 1
+        }
+      ],
+      "middleAds": [],
+      "store": {
+        "address": "容桂碧桂园凤凰湾10号商铺",
+        "id": 5,
+        "name": "凤凰湾店",
+        "type": "self",
+        "work_hours": "08:00-23:59"
+      },
+      "cppStoreAdImages": [
+        {
+          "image": "/upload/image/201811/107806af-742c-4eba-82d5-4e8fb3835c68.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "双11弹窗",
+          "type": 2,
+          "url": null
+        }
+      ],
+      "storeId": 5,
+      "bottomAds": [],
+      "interactionImages": [
+        {
+          "image": "/upload/image/201810/1fe07aa4-1f3b-416b-b94e-362f12c84f58.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "零食周",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1057464287234097152"
+        },
+        {
+          "image": "/upload/image/201810/1a466240-e93a-498e-9ada-090b37ec9409.jpg",
+          "orders": 2,
+          "phone": null,
+          "title": "水果打折",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988714192838066176&subCategoryId=988714199200825344"
+        },
+        {
+          "image": "/upload/image/201810/db089a6c-961c-42c4-ab72-8a51e6c1850a.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "0卡路里",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988714239516475392&subCategoryId=988714241982726144"
+        },
+        {
+          "image": "/upload/image/201810/70f3169a-711a-4cb5-b335-51f36e3139ed.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "桶装水活动",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988714310312132608"
+        }
+      ],
+      "storeAdImages": [
+        {
+          "image": "/upload/image/201811/f6e0e94e-afef-478c-8f1c-22c8f4a87177.png",
+          "orders": 1,
+          "phone": null,
+          "title": "双11banner图",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1059349106041815040"
+        },
+        {
+          "image": "/upload/image/201811/77bd622e-e908-4070-b815-756c80e5e541.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "桶装水",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/product-detail?skuId=1040502917200609280"
+        },
+        {
+          "image": "/upload/image/201810/afa8140a-f216-4b43-b711-eed2b8138910.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "生鲜4.9折",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988714192838066176"
+        }
+      ]
+    },
+    "currentTime": "2018-11-09 09:21:01",
+    "code": 1,
+    "siteImageUrl": "https://fsomengo.oss-cn-shenzhen.aliyuncs.com",
+    "siteName": "送哟",
+    "message": null
+  },
+  {
+    "id": 6,
+    "datum": {
+      "storeProductCategory": [
+        {
+          "image": "/upload/image/201809/db37045b-d31c-499d-acb8-57a3fa49b2e8.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/39a782bd-4006-4447-a87d-4089a95491e2.jpg",
+              "unit": "600g-650g",
+              "promotions": [
+                {
+                  "name": "橙子",
+                  "title": "8折"
+                }
+              ],
+              "price": "10.80",
+              "availableStock": 3,
+              "name": "12糖赣南脐橙",
+              "discountPrice": "8.64",
+              "id": 1059920865870741504,
+              "type": {},
+              "brand": "",
+              "sid": "1059920865870741504"
+            },
+            {
+              "image": "/upload/image/201811/23dfe999-286d-4b6c-a861-ee0ce23bfb7b.jpg",
+              "unit": "350g-380g",
+              "promotions": [
+                {
+                  "name": "山楂",
+                  "title": "8折"
+                }
+              ],
+              "price": "6.90",
+              "availableStock": 1,
+              "name": "精品山楂",
+              "discountPrice": "5.52",
+              "id": 1059920865686192128,
+              "type": {},
+              "brand": "",
+              "sid": "1059920865686192128"
+            },
+            {
+              "image": "/upload/image/201811/5f5df80a-f1de-4c4c-9f79-fb2f1e417f23.jpg",
+              "unit": "520g-550g",
+              "promotions": [
+                {
+                  "name": "苹果",
+                  "title": "8折"
+                }
+              ],
+              "price": "12.80",
+              "availableStock": 1,
+              "name": "精品苹果",
+              "discountPrice": "10.24",
+              "id": 1059920865539391488,
+              "type": {},
+              "brand": "",
+              "sid": "1059920865539391488"
+            },
+            {
+              "image": "/upload/image/201811/1991ed24-52cf-4286-b0f6-553c992f1447.jpg",
+              "unit": "1000g-1300g",
+              "promotions": [
+                {
+                  "name": "沙田柚",
+                  "title": "特价"
+                }
+              ],
+              "price": "13.80",
+              "availableStock": 7,
+              "name": "梅县沙田柚",
+              "discountPrice": "9.89",
+              "id": 1059920865384202240,
+              "type": {},
+              "brand": "",
+              "sid": "1059920865384202240"
+            },
+            {
+              "image": "/upload/image/201811/4cda4c8b-b1f0-43ad-bb1e-c92dd0ec8507.jpg",
+              "unit": "430g-450g",
+              "promotions": [
+                {
+                  "name": "胡萝卜",
+                  "title": "8折"
+                }
+              ],
+              "price": "4.50",
+              "availableStock": 6,
+              "name": "包装带泥红萝卜",
+              "discountPrice": "3.60",
+              "id": 1059920865224818688,
+              "type": {},
+              "brand": "",
+              "sid": "1059920865224818688"
+            }
+          ],
+          "name": "每日生鲜",
+          "id": 988714329270386688,
+          "sid": "988714329270386688"
+        },
+        {
+          "image": "/upload/image/201809/f293b706-cbe0-4628-9aca-df6e21be608c.png",
+          "children": [
+            {
+              "image": "/upload/image/201802/2cb4bc93-0120-4737-a2e2-c641761f2276.jpg",
+              "unit": "60g/包",
+              "promotions": [],
+              "price": "5.50",
+              "availableStock": 4,
+              "name": "贤哥盐焗武术鸭脖",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598586105135104,
+              "type": {},
+              "brand": "贤哥",
+              "sid": "988598586105135104"
+            },
+            {
+              "image": "/upload/image/201802/0f6ac227-aa16-4adb-a6b0-25e7b47c99db.jpg",
+              "unit": "53g/包",
+              "promotions": [],
+              "price": "3.50",
+              "availableStock": 7,
+              "name": "贤哥小鱼仔",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598582347038720,
+              "type": {},
+              "brand": "贤哥",
+              "sid": "988598582347038720"
+            },
+            {
+              "image": "/upload/image/201801/3bdaad0b-466a-4118-b62f-e471ea95aa75.jpg",
+              "unit": "8g/包",
+              "promotions": [],
+              "price": "1.00",
+              "availableStock": 1,
+              "name": "雅嘉奶酪味玉米棒",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598441347121152,
+              "type": {},
+              "brand": "丽芝士",
+              "sid": "988598441347121152"
+            },
+            {
+              "image": "/upload/image/201802/a7f6b37b-a6d2-42be-aaf8-9a554fbdf637.jpg",
+              "unit": "95g/盒",
+              "promotions": [],
+              "price": "8.00",
+              "availableStock": 7,
+              "name": "奥利奥草莓酸奶巧轻脆",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598440285962240,
+              "type": {},
+              "brand": "奥利奥",
+              "sid": "988598440285962240"
+            },
+            {
+              "image": "/upload/image/201801/e7c1656a-34e0-4e35-82ba-04fd5ac209dd.jpg",
+              "unit": "97g/盒",
+              "promotions": [],
+              "price": "7.50",
+              "availableStock": 1,
+              "name": "金装草莓味夹心饼干 ",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598438381748224,
+              "type": {},
+              "brand": "奥利奥",
+              "sid": "988598438381748224"
+            }
+          ],
+          "name": "休闲零食",
+          "id": 988714342289506304,
+          "sid": "988714342289506304"
+        },
+        {
+          "image": "/upload/image/201809/3e2a97f8-8240-4e21-9e19-52760d4bae7d.png",
+          "children": [
+            {
+              "image": "/upload/image/201802/d22b2f53-4058-48ad-8fda-7af77d7db65b.jpg",
+              "unit": "330ml/罐",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 23,
+              "name": "雪碧罐装",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598402939879424,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "988598402939879424"
+            },
+            {
+              "image": "/upload/image/201801/1cb270d2-76d9-4479-84e2-c20e896906f2.jpg",
+              "unit": "330ml/听",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 24,
+              "name": "可口可乐汽水罐装",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598402319122432,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "988598402319122432"
+            },
+            {
+              "image": "/upload/image/201801/bbeea27f-0ae8-46b1-a5ca-1ef212e7aa8f.jpg",
+              "unit": "450ml/瓶",
+              "promotions": [],
+              "price": "3.00",
+              "availableStock": 20,
+              "name": "美汁源果粒橙",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598401853554688,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "988598401853554688"
+            }
+          ],
+          "name": "饮料冲调",
+          "id": 988714374468206592,
+          "sid": "988714374468206592"
+        },
+        {
+          "image": "/upload/image/201809/c53ccdf2-3259-4e1e-8a22-b745f0d0bb5a.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/9c06b157-85e3-44a3-b29a-cd7ad166769d.png",
+              "unit": "1套",
+              "promotions": [],
+              "price": "148.00",
+              "availableStock": 4,
+              "name": "恒大兴安套餐",
+              "discountPrice": "0.00",
+              "id": 1056727323304263680,
+              "type": {},
+              "brand": "恒大兴安",
+              "sid": "1056727323304263680"
+            },
+            {
+              "image": "/upload/image/201805/9d852e66-42c3-42e5-80b3-3f5a4306a56c.jpg",
+              "unit": "30g/盒",
+              "promotions": [],
+              "price": "6.50",
+              "availableStock": 31,
+              "name": "鲜之惠有机紫菜",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 990078153869230080,
+              "type": {},
+              "brand": "鲜之惠",
+              "sid": "990078153869230080"
+            },
+            {
+              "image": "/upload/image/201804/e9814593-547e-46ca-8842-bdc67421ec3e.jpg",
+              "unit": "250g/包",
+              "promotions": [],
+              "price": "27.00",
+              "availableStock": 10,
+              "name": "黄豆腐竹段",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 989338276932354048,
+              "type": {},
+              "brand": "瑜文",
+              "sid": "989338276932354048"
+            },
+            {
+              "image": "/upload/image/201804/a1e1c249-6d42-4593-991e-61ed86e525b7.jpg",
+              "unit": "240g/瓶",
+              "promotions": [],
+              "price": "16.50",
+              "availableStock": 5,
+              "name": "李锦记柱候酱",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 989323178092265472,
+              "type": {},
+              "brand": "李锦记",
+              "sid": "989323178092265472"
+            },
+            {
+              "image": "/upload/image/201804/27efbf6c-2980-41d3-af22-67ce7f21406f.jpg",
+              "unit": "40g/瓶",
+              "promotions": [],
+              "price": "9.50",
+              "availableStock": 8,
+              "name": "易厨孜然粉",
+              "discountPrice": "0.00",
+              "id": 989058938311802880,
+              "type": {},
+              "brand": "易厨",
+              "sid": "989058938311802880"
+            }
+          ],
+          "name": "粮油调味",
+          "id": 988714445289029632,
+          "sid": "988714445289029632"
+        },
+        {
+          "image": "/upload/image/201809/9f0ec4c7-b79f-435d-9242-6fcd8a9ce54e.png",
+          "children": [
+            {
+              "image": "/upload/image/201804/04b4f8b8-5174-4568-b3e8-53e5c09025e7.jpg",
+              "unit": "1支",
+              "promotions": [],
+              "price": "3.50",
+              "availableStock": 12,
+              "name": "晨光米菲四色圆珠笔0.5",
+              "discountPrice": "0.00",
+              "weight": 7,
+              "id": 988598624344604672,
+              "type": {},
+              "brand": "晨光",
+              "sid": "988598624344604672"
+            },
+            {
+              "image": "/upload/image/201803/63409765-2843-4639-b016-1e27d1302cc2.jpg",
+              "unit": "3片装",
+              "promotions": [],
+              "price": "22.00",
+              "availableStock": 5,
+              "name": "冈本避孕套-超润滑透薄",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598622268424192,
+              "type": {},
+              "brand": "冈本",
+              "sid": "988598622268424192"
+            },
+            {
+              "image": "/upload/image/201803/9ca43044-6c76-4fd7-a7d3-fd81d9320b23.jpg",
+              "unit": "4粒/卡",
+              "promotions": [],
+              "price": "10.00",
+              "availableStock": 12,
+              "name": "南孚5号电池4粒",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598610746671104,
+              "type": {},
+              "brand": "南孚",
+              "sid": "988598610746671104"
+            },
+            {
+              "image": "/upload/image/201803/483543bb-99c4-4da7-85af-26789da7a2de.jpg",
+              "unit": "10卷装",
+              "promotions": [],
+              "price": "33.50",
+              "availableStock": 3,
+              "name": "维达蓝色经典卷纸2000",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598610495012864,
+              "type": {},
+              "brand": "维达",
+              "sid": "988598610495012864"
+            },
+            {
+              "image": "/upload/image/201804/726ffb44-b5fc-404e-b8c4-34d7d7d72e6a.jpg",
+              "unit": "91g*10卷/条",
+              "promotions": [],
+              "price": "19.00",
+              "availableStock": 12,
+              "name": "新太阳特惠卷纸",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 988598467142090752,
+              "type": {},
+              "brand": "洁柔",
+              "sid": "988598467142090752"
+            }
+          ],
+          "name": "家居用品",
+          "id": 988714425173147648,
+          "sid": "988714425173147648"
+        }
+      ],
+      "hotSearch": ["可乐", "面", "啤酒", "鸡蛋", "辣条", "薯片", "花生"],
+      "wallAdImages": [],
+      "extra": [
+        {
+          "availableStock": 3,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 988598562717696000,
+          "image": "/upload/image/201801/955a52ec-0fe4-45be-82d0-609f4a89c430.jpg",
+          "marketPrice": "0.00",
+          "name": "虾味条",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988598562717696000",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 1
+        },
+        {
+          "availableStock": 27,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 988598562826747904,
+          "image": "/upload/image/201801/599d0cae-8c8e-47f0-a673-1ab962fb6463.jpg",
+          "marketPrice": "0.00",
+          "name": "蟹味粒",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988598562826747904",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 1
+        },
+        {
+          "availableStock": 82,
+          "brand": "徐福记",
+          "discountPrice": "0.00",
+          "id": 988598464168329216,
+          "image": "/upload/image/201711/f9222444-f2ad-4cc7-9f9f-a42565a9b35c_thumbnail.jpg",
+          "marketPrice": "0.00",
+          "name": "徐福记果味多嘟棒棒糖",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988598464168329216",
+          "type": "general",
+          "unit": "9.5g/个",
+          "weight": 1
+        },
+        {
+          "availableStock": 99,
+          "brand": "徐福记",
+          "discountPrice": "0.00",
+          "id": 988598465002995712,
+          "image": "/upload/image/201711/f0fe00a6-038c-4706-909a-46048672facc_thumbnail.jpg",
+          "marketPrice": "0.00",
+          "name": "徐福记嘟嘟泡水果味泡泡糖",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "988598465002995712",
+          "type": "general",
+          "unit": "9g/个",
+          "weight": 1
+        },
+        {
+          "availableStock": 13,
+          "brand": "鼎湖山泉",
+          "discountPrice": "0.00",
+          "id": 988598490718273536,
+          "image": "/upload/image/201802/18b5fc86-e799-4f45-a49d-0a0cd37c504b.jpg",
+          "marketPrice": "0.00",
+          "name": "鼎湖山泉水桶装水",
+          "price": 22,
+          "promotions": [],
+          "sid": "988598490718273536",
+          "type": "general",
+          "unit": "19L/桶",
+          "weight": 1
+        },
+        {
+          "availableStock": 51,
+          "brand": "怡宝",
+          "discountPrice": "0.00",
+          "id": 988598417850630144,
+          "image": "/upload/image/201802/d7b0c2b6-d0be-488f-a9fa-a361002edbc6.jpg",
+          "marketPrice": "0.00",
+          "name": "怡宝饮用纯净水",
+          "price": 2,
+          "promotions": [],
+          "sid": "988598417850630144",
+          "type": "general",
+          "unit": "555ml/瓶",
+          "weight": 1
+        }
+      ],
+      "middleAds": [],
+      "store": {
+        "address": "容桂佳兆业金域天下12号商铺",
+        "id": 6,
+        "name": "金域天下店",
+        "type": "self",
+        "work_hours": "08:00-23:59"
+      },
+      "cppStoreAdImages": [
+        {
+          "image": "/upload/image/201811/49e24002-c2dd-490f-9214-a3f6a2ab8ae2.jpg",
+          "orders": null,
+          "phone": null,
+          "title": "双11弹窗",
+          "type": 2,
+          "url": null
+        }
+      ],
+      "storeId": 6,
+      "bottomAds": [],
+      "interactionImages": [
+        {
+          "image": "/upload/image/201810/26131ea5-a910-46b2-bd0e-3d2b4b31afb2.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "零食周",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1057460072231206912"
+        },
+        {
+          "image": "/upload/image/201810/916375fe-8356-4442-85e2-214e0570261b.jpg",
+          "orders": 2,
+          "phone": null,
+          "title": "水果打折",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1046580745453174784&subCategoryId=988714335268241408"
+        },
+        {
+          "image": "/upload/image/201810/c4712a90-4ec1-4e9b-8d6e-88287636477d.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "0卡路里",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988714374468206592&subCategoryId=988714377123201024"
+        },
+        {
+          "image": "/upload/image/201810/324e3be3-bf87-49bd-9330-cc9f6b63b64d.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "桶装水活动",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988714444534054912&subCategoryId=988714444534054912"
+        }
+      ],
+      "storeAdImages": [
+        {
+          "image": "/upload/image/201811/be78eb72-90df-41e8-a516-0665249a345f.jpg",
+          "orders": 2,
+          "phone": null,
+          "title": "双十一活动",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1059347353577717760"
+        },
+        {
+          "image": "/upload/image/201811/2457592e-27a0-4db0-8c49-1a03b757161e.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "桶装水",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/product-detail?skuId=1040502918748307456"
+        },
+        {
+          "image": "/upload/image/201810/41c01ebe-e659-4ee9-a381-2253d3bcf92a.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "生鲜4.9折",
+          "type": 2,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=988714329270386688"
+        }
+      ]
+    },
+    "currentTime": "2018-11-09 09:21:28",
+    "code": 1,
+    "siteImageUrl": "https://fsomengo.oss-cn-shenzhen.aliyuncs.com",
+    "siteName": "送哟",
+    "message": null
+  },
+  {
+    "id": 9,
+    "datum": {
+      "storeProductCategory": [
+        {
+          "image": "/upload/image/201809/db37045b-d31c-499d-acb8-57a3fa49b2e8.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/39a782bd-4006-4447-a87d-4089a95491e2.jpg",
+              "unit": "600g-650g",
+              "promotions": [
+                {
+                  "name": "橙子",
+                  "title": "8折"
+                }
+              ],
+              "price": "10.80",
+              "availableStock": 6,
+              "name": "12糖赣南脐橙",
+              "discountPrice": "8.64",
+              "id": 1059920869142298624,
+              "type": {},
+              "brand": "",
+              "sid": "1059920869142298624"
+            },
+            {
+              "image": "/upload/image/201811/23dfe999-286d-4b6c-a861-ee0ce23bfb7b.jpg",
+              "unit": "350g-380g",
+              "promotions": [
+                {
+                  "name": "山楂",
+                  "title": "8折"
+                }
+              ],
+              "price": "6.90",
+              "availableStock": 3,
+              "name": "精品山楂",
+              "discountPrice": "5.52",
+              "id": 1059920868873863168,
+              "type": {},
+              "brand": "",
+              "sid": "1059920868873863168"
+            },
+            {
+              "image": "/upload/image/201811/1991ed24-52cf-4286-b0f6-553c992f1447.jpg",
+              "unit": "1000g-1300g",
+              "promotions": [
+                {
+                  "name": "沙田柚",
+                  "title": "特价"
+                }
+              ],
+              "price": "13.80",
+              "availableStock": 5,
+              "name": "梅县沙田柚",
+              "discountPrice": "9.89",
+              "id": 1059920868546707456,
+              "type": {},
+              "brand": "",
+              "sid": "1059920868546707456"
+            },
+            {
+              "image": "/upload/image/201811/28e9deb9-b337-4b85-943f-72f1e897b2fe.jpg",
+              "unit": "370g-400g",
+              "promotions": [
+                {
+                  "name": "红洋葱",
+                  "title": "8折"
+                }
+              ],
+              "price": "3.50",
+              "availableStock": 7,
+              "name": "包装红洋葱",
+              "discountPrice": "2.80",
+              "id": 1059920868051779584,
+              "type": {},
+              "brand": "",
+              "sid": "1059920868051779584"
+            },
+            {
+              "image": "/upload/image/201811/69e35629-6572-4d94-a20f-3f99bea5fbd9.jpg",
+              "unit": "240g-260g",
+              "promotions": [],
+              "price": "28.80",
+              "availableStock": 30,
+              "name": "A级-优质水晶柳（牛肉）",
+              "discountPrice": "0.00",
+              "id": 1059196088600231936,
+              "type": {},
+              "brand": "",
+              "sid": "1059196088600231936"
+            }
+          ],
+          "name": "每日生鲜",
+          "id": 1037910978924118016,
+          "sid": "1037910978924118016"
+        },
+        {
+          "image": "/upload/image/201809/f293b706-cbe0-4628-9aca-df6e21be608c.png",
+          "children": [
+            {
+              "image": "/upload/image/201810/82026fac-659c-4f3a-9417-7051ab09ec98.jpg",
+              "unit": "300g/包",
+              "promotions": [],
+              "price": "11.00",
+              "availableStock": 7,
+              "name": "自然派番薯条",
+              "discountPrice": "0.00",
+              "id": 1054220821075066880,
+              "type": {},
+              "brand": "自然派",
+              "sid": "1054220821075066880"
+            },
+            {
+              "image": "/upload/image/201810/eb628468-51ef-4929-83ca-e07f64af9bf6.jpg",
+              "unit": "200g/包",
+              "promotions": [],
+              "price": "14.00",
+              "availableStock": 9,
+              "name": "自然派奇异果片",
+              "discountPrice": "0.00",
+              "id": 1054220820890517504,
+              "type": {},
+              "brand": "自然派",
+              "sid": "1054220820890517504"
+            },
+            {
+              "image": "/upload/image/201801/fb5c73b3-c9e9-4598-8a74-f5f6b0e78ab9.jpg",
+              "unit": "160g/袋",
+              "promotions": [],
+              "price": "7.50",
+              "availableStock": 4,
+              "name": "五香味香瓜子 ",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037905850217267200,
+              "type": {},
+              "brand": "洽洽",
+              "sid": "1037905850217267200"
+            }
+          ],
+          "name": "休闲零食",
+          "id": 1037911062302687232,
+          "sid": "1037911062302687232"
+        },
+        {
+          "image": "/upload/image/201809/3e2a97f8-8240-4e21-9e19-52760d4bae7d.png",
+          "children": [
+            {
+              "image": "/upload/image/201810/7735fb27-9bda-4c27-bbc3-759a6f1b5229.jpg",
+              "unit": "500ml/瓶",
+              "promotions": [],
+              "price": "6.00",
+              "availableStock": 10,
+              "name": "元気森林桃香无糖燃茶",
+              "discountPrice": "0.00",
+              "id": 1052809021729275904,
+              "type": {},
+              "brand": "元気森林",
+              "sid": "1052809021729275904"
+            },
+            {
+              "image": "/upload/image/201810/8f9bf598-e960-42c2-a340-5039a455ef9d.jpg",
+              "unit": "205g*12/箱",
+              "promotions": [],
+              "price": "68.00",
+              "availableStock": 1,
+              "name": "伊利安慕希草莓味",
+              "discountPrice": "0.00",
+              "id": 1052084239337521152,
+              "type": {},
+              "brand": "伊利",
+              "sid": "1052084239337521152"
+            },
+            {
+              "image": "/upload/image/201801/9e7a17c4-87e4-48bd-a531-5858125bc3f6.jpg",
+              "unit": "600ml/瓶",
+              "promotions": [],
+              "price": "3.50",
+              "availableStock": 31,
+              "name": "百事可乐",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1037906004630568960,
+              "type": {},
+              "brand": "百事可乐",
+              "sid": "1037906004630568960"
+            },
+            {
+              "image": "/upload/image/201802/d22b2f53-4058-48ad-8fda-7af77d7db65b.jpg",
+              "unit": "330ml/罐",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 26,
+              "name": "雪碧罐装",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1037905809209556992,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "1037905809209556992"
+            },
+            {
+              "image": "/upload/image/201801/1cb270d2-76d9-4479-84e2-c20e896906f2.jpg",
+              "unit": "330ml/听",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 9,
+              "name": "可口可乐汽水罐装",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1037905808353918976,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "1037905808353918976"
+            }
+          ],
+          "name": "饮料冲调",
+          "id": 1037911093076295680,
+          "sid": "1037911093076295680"
+        },
+        {
+          "image": "/upload/image/201712/9b9a5313-853f-481d-9b45-d72f88bdd98e.png",
+          "children": [
+            {
+              "image": "/upload/image/201810/7166e63d-cb4b-4996-94ec-e72ee29facd8.jpg",
+              "unit": "3.5g/支",
+              "promotions": [],
+              "price": "30.00",
+              "availableStock": 5,
+              "name": "什果冰薄荷",
+              "discountPrice": "0.00",
+              "id": 1049222883122872320,
+              "type": {},
+              "brand": "曼秀雷敦",
+              "sid": "1049222883122872320"
+            },
+            {
+              "image": "/upload/image/201810/5435f55b-f35d-4201-9020-16886b6b19e9.jpg",
+              "unit": "3g/支",
+              "promotions": [],
+              "price": "30.00",
+              "availableStock": 4,
+              "name": "什果冰天然",
+              "discountPrice": "0.00",
+              "id": 1049222882959294464,
+              "type": {},
+              "brand": "曼秀雷敦",
+              "sid": "1049222882959294464"
+            },
+            {
+              "image": "/upload/image/201810/952f1eb1-3d5c-431c-b244-c196afe8643a.jpg",
+              "unit": "60g/支",
+              "promotions": [],
+              "price": "7.00",
+              "availableStock": 5,
+              "name": "大宝SOD滋养手霜",
+              "discountPrice": "0.00",
+              "id": 1049200228923604992,
+              "type": {},
+              "brand": "",
+              "sid": "1049200228923604992"
+            },
+            {
+              "image": "/upload/image/201810/368b7ab6-388a-496d-8686-4df25c80320d.jpg",
+              "unit": "200ml/瓶",
+              "promotions": [],
+              "price": "20.50",
+              "availableStock": 5,
+              "name": "大宝SOD蜜",
+              "discountPrice": "0.00",
+              "id": 1049200228655169536,
+              "type": {},
+              "brand": "",
+              "sid": "1049200228655169536"
+            },
+            {
+              "image": "/upload/image/201805/8eaf4b6c-d970-49d3-bf7c-e6c2f9f2c55e.jpg",
+              "unit": "400ML/瓶",
+              "promotions": [],
+              "price": "50.00",
+              "availableStock": 5,
+              "name": "沙宣清盈顺柔洗发露",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037906125141311488,
+              "type": {},
+              "brand": "沙宣",
+              "sid": "1037906125141311488"
+            }
+          ],
+          "name": "个体洗护",
+          "id": 1037911122415452160,
+          "sid": "1037911122415452160"
+        },
+        {
+          "image": "/upload/image/201712/0a0ec505-1e6a-418b-9f5a-1dec8e55fe54.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/ab514b73-d59c-4965-aaf1-da4cd7d2de25.jpg",
+              "unit": "240g-260g",
+              "promotions": [],
+              "price": "18.80",
+              "availableStock": 1,
+              "name": "鸡翅中",
+              "discountPrice": "0.00",
+              "id": 1058811060137492480,
+              "type": {},
+              "brand": "",
+              "sid": "1058811060137492480"
+            },
+            {
+              "image": "/upload/image/201806/1bb62e4b-079e-4068-82fb-01fea05ccd61.jpg",
+              "unit": "78ml/支",
+              "promotions": [],
+              "price": "1.00",
+              "availableStock": 23,
+              "name": "旺旺碎冰冰综合水果",
+              "discountPrice": "0.00",
+              "weight": 20,
+              "id": 1037906129696325632,
+              "type": {},
+              "brand": "旺旺",
+              "sid": "1037906129696325632"
+            },
+            {
+              "image": "/upload/image/201803/07116417-cc3a-473b-9bf5-71fcd871e8dc.jpg",
+              "unit": "65g/条",
+              "promotions": [],
+              "price": "4.00",
+              "availableStock": 17,
+              "name": "阿波罗香草草莓双色甜筒",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1037906098071273472,
+              "type": {},
+              "brand": "阿波罗",
+              "sid": "1037906098071273472"
+            },
+            {
+              "image": "/upload/image/201803/9985c310-d0bf-458d-8fb7-527e6e81816a.jpg",
+              "unit": "55g/杯",
+              "promotions": [],
+              "price": "3.00",
+              "availableStock": 18,
+              "name": "阿波罗芒果味迷你杯雪糕",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1037906096586489856,
+              "type": {},
+              "brand": "阿波罗",
+              "sid": "1037906096586489856"
+            },
+            {
+              "image": "/upload/image/201803/3e24bb0a-bdd7-4156-bb4b-90f70a4d1f42.jpg",
+              "unit": "70g/条",
+              "promotions": [],
+              "price": "3.00",
+              "availableStock": 11,
+              "name": "阿波罗芒果布甸雪糕",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1037906096070590464,
+              "type": {},
+              "brand": "阿波罗",
+              "sid": "1037906096070590464"
+            }
+          ],
+          "name": "冷冻食品",
+          "id": 1037911109413109760,
+          "sid": "1037911109413109760"
+        },
+        {
+          "image": "/upload/image/201809/c53ccdf2-3259-4e1e-8a22-b745f0d0bb5a.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/9c06b157-85e3-44a3-b29a-cd7ad166769d.png",
+              "unit": "1套",
+              "promotions": [],
+              "price": "148.00",
+              "availableStock": 12,
+              "name": "恒大兴安套餐",
+              "discountPrice": "0.00",
+              "id": 1056727325187506176,
+              "type": {},
+              "brand": "恒大兴安",
+              "sid": "1056727325187506176"
+            },
+            {
+              "image": "/upload/image/201809/31f64973-a2d2-45cc-a46b-7c25db3d84b2.jpg",
+              "unit": "450g/包",
+              "promotions": [],
+              "price": "7.00",
+              "availableStock": 5,
+              "name": "陈克明劲道面",
+              "discountPrice": "0.00",
+              "weight": 5,
+              "id": 1037906163405946880,
+              "type": {},
+              "brand": "三户",
+              "sid": "1037906163405946880"
+            },
+            {
+              "image": "/upload/image/201804/114e3716-3ad3-4bf4-b3f3-8c13e38444d6.jpg",
+              "unit": "410ml/瓶",
+              "promotions": [],
+              "price": "11.50",
+              "availableStock": 4,
+              "name": "李锦记卤水汁",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037906119311228928,
+              "type": {},
+              "brand": "李锦记",
+              "sid": "1037906119311228928"
+            },
+            {
+              "image": "/upload/image/201804/20a9e955-45c2-4309-bc03-28dfa97e6e27.jpg",
+              "unit": "240g/瓶",
+              "promotions": [],
+              "price": "16.50",
+              "availableStock": 5,
+              "name": "李锦记海鲜酱",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037906118652723200,
+              "type": {},
+              "brand": "李锦记",
+              "sid": "1037906118652723200"
+            },
+            {
+              "image": "/upload/image/201804/92b954a2-e82a-4bcb-8b2b-96d6812d28d3.jpg",
+              "unit": "30g/包",
+              "promotions": [],
+              "price": "3.00",
+              "availableStock": 9,
+              "name": "易厨精选八角",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037906115452469248,
+              "type": {},
+              "brand": "易厨",
+              "sid": "1037906115452469248"
+            }
+          ],
+          "name": "粮油调味",
+          "id": 1037911157286895616,
+          "sid": "1037911157286895616"
+        },
+        {
+          "image": "/upload/image/201809/9f0ec4c7-b79f-435d-9242-6fcd8a9ce54e.png",
+          "children": [
+            {
+              "image": "/upload/image/201808/3c078f92-3cc2-40df-9585-5428e98da298.jpg",
+              "unit": "600g/瓶",
+              "promotions": [],
+              "price": "10.00",
+              "availableStock": 4,
+              "name": "斧头牌柠檬护肤洗洁精",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037906162680332288,
+              "type": {},
+              "brand": "斧头牌",
+              "sid": "1037906162680332288"
+            },
+            {
+              "image": "/upload/image/201807/055db54d-8fc3-4b92-b6e0-7c791b86943c.jpg",
+              "unit": "30只/包",
+              "promotions": [],
+              "price": "5.00",
+              "availableStock": 5,
+              "name": "C型一次性手套",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037906145102004224,
+              "type": {},
+              "brand": "妙洁",
+              "sid": "1037906145102004224"
+            },
+            {
+              "image": "/upload/image/201807/ddb19e32-16ea-4076-b3a5-8f150ca27d6b.jpg",
+              "unit": "1.65kg/包",
+              "promotions": [],
+              "price": "19.50",
+              "availableStock": 5,
+              "name": "汰渍洁净薰香洗衣粉",
+              "discountPrice": "0.00",
+              "weight": 6,
+              "id": 1037906144388972544,
+              "type": {},
+              "brand": "汰渍",
+              "sid": "1037906144388972544"
+            }
+          ],
+          "name": "家居用品",
+          "id": 1037911137242316800,
+          "sid": "1037911137242316800"
+        },
+        {
+          "image": "/upload/image/201809/b7f309b5-ca79-4114-b102-5c1f5418f4dd.png",
+          "children": [
+            {
+              "image": "/upload/image/201801/1959f585-e927-44cc-816e-a5d386fa6694.jpg",
+              "unit": "1个",
+              "promotions": [],
+              "price": "10.00",
+              "availableStock": 6,
+              "name": "手压式水泵",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037905931645485056,
+              "type": {},
+              "brand": "送哟",
+              "sid": "1037905931645485056"
+            },
+            {
+              "image": "/upload/image/201802/18b5fc86-e799-4f45-a49d-0a0cd37c504b.jpg",
+              "unit": "19L/桶",
+              "promotions": [],
+              "price": "22.00",
+              "availableStock": 5,
+              "name": "鼎湖山泉水桶装水",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037905931519655936,
+              "type": {},
+              "brand": "鼎湖山泉",
+              "sid": "1037905931519655936"
+            },
+            {
+              "image": "/upload/image/201802/b7768e65-e52d-4519-9e3d-adf762b89214.jpg",
+              "promotions": [],
+              "price": "50.00",
+              "availableStock": 18,
+              "name": "空桶押金",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037905931385438208,
+              "type": {},
+              "brand": "",
+              "sid": "1037905931385438208"
+            },
+            {
+              "image": "/upload/image/201802/d7bf555b-9e3d-45f5-818f-8306ac6c428b.jpg",
+              "unit": "18.9L/桶",
+              "promotions": [],
+              "price": "20.00",
+              "availableStock": 9,
+              "name": "怡宝纯净水桶装水",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1037905931263803392,
+              "type": {},
+              "brand": "怡宝",
+              "sid": "1037905931263803392"
+            }
+          ],
+          "name": "桶装水服务",
+          "id": 1037911156540309504,
+          "sid": "1037911156540309504"
+        }
+      ],
+      "hotSearch": ["可乐", "面", "啤酒", "鸡蛋", "辣条", "薯片", "花生"],
+      "wallAdImages": [],
+      "extra": [
+        {
+          "availableStock": 5,
+          "brand": "鼎湖山泉",
+          "discountPrice": "0.00",
+          "id": 1037905931519655936,
+          "image": "/upload/image/201802/18b5fc86-e799-4f45-a49d-0a0cd37c504b.jpg",
+          "marketPrice": "0.00",
+          "name": "鼎湖山泉水桶装水",
+          "price": 22,
+          "promotions": [],
+          "sid": "1037905931519655936",
+          "type": "general",
+          "unit": "19L/桶",
+          "weight": 1
+        },
+        {
+          "availableStock": 44,
+          "brand": "哈尔滨",
+          "discountPrice": "0.00",
+          "id": 1037905858370994176,
+          "image": "/upload/image/201801/8c711975-cccd-42b7-93bf-f30bd992e720.jpg",
+          "marketPrice": "0.00",
+          "name": "冰爽啤酒",
+          "price": 3,
+          "promotions": [],
+          "sid": "1037905858370994176",
+          "type": "general",
+          "unit": "330ml/罐",
+          "weight": 24
+        },
+        {
+          "availableStock": 74,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 1037906026688413696,
+          "image": "/upload/image/201801/955a52ec-0fe4-45be-82d0-609f4a89c430.jpg",
+          "marketPrice": "0.00",
+          "name": "虾味条",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "1037906026688413696",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 40
+        },
+        {
+          "availableStock": 76,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 1037906026831020032,
+          "image": "/upload/image/201801/599d0cae-8c8e-47f0-a673-1ab962fb6463.jpg",
+          "marketPrice": "0.00",
+          "name": "蟹味粒",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "1037906026831020032",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 40
+        },
+        {
+          "availableStock": 21,
+          "brand": "百威",
+          "discountPrice": "0.00",
+          "id": 1037905857905426432,
+          "image": "/upload/image/201801/c0ecd2f7-49c0-49bb-8d06-6505b4ea1d8e.jpg",
+          "marketPrice": "0.00",
+          "name": "啤酒",
+          "price": 7.5,
+          "promotions": [],
+          "sid": "1037905857905426432",
+          "type": "general",
+          "unit": "500ml/罐",
+          "weight": 24
+        },
+        {
+          "availableStock": 87,
+          "brand": "徐福记",
+          "discountPrice": "0.00",
+          "id": 1037905896824373248,
+          "image": "/upload/image/201711/f9222444-f2ad-4cc7-9f9f-a42565a9b35c_thumbnail.jpg",
+          "marketPrice": "0.00",
+          "name": "徐福记果味多嘟棒棒糖",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "1037905896824373248",
+          "type": "general",
+          "unit": "9.5g/个",
+          "weight": 108
+        }
+      ],
+      "middleAds": [],
+      "store": {
+        "address": "送哟康格斯店：大良康格斯花园二期42号铺",
+        "id": 9,
+        "name": "康格斯花园店",
+        "type": "self",
+        "work_hours": "07:00-23:59"
+      },
+      "cppStoreAdImages": [
+        {
+          "image": "/upload/image/201811/8b909979-05b9-4490-8e91-37b26e25348c.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "双11弹窗",
+          "type": 2,
+          "url": null
+        }
+      ],
+      "storeId": 9,
+      "bottomAds": [],
+      "interactionImages": [
+        {
+          "image": "/upload/image/201810/9e271afd-7c9b-4dd6-a9b3-fedc99f93a13.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "零食周",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1057472467964002304"
+        },
+        {
+          "image": "/upload/image/201811/e3749785-ba35-4f29-98a8-3624b0a4252b.jpg",
+          "orders": 2,
+          "phone": null,
+          "title": "方便美食",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1037910978924118016&subCategoryId=1046581411676422144"
+        },
+        {
+          "image": "/upload/image/201810/7730f18d-8bc0-43ae-aeb0-dfa4642ca671.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "0卡路里",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1037911093076295680&subCategoryId=1037911095127310336"
+        },
+        {
+          "image": "/upload/image/201810/42a49740-f006-4398-aa24-e3e1fad235bc.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "桶装水活动",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1037911156540309504"
+        }
+      ],
+      "storeAdImages": [
+        {
+          "image": "/upload/image/201811/8c9b5458-ae4c-45f1-b288-82487b4cb7e3.jpg",
+          "orders": null,
+          "phone": null,
+          "title": "双十一活动",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1059362563474587648"
+        },
+        {
+          "image": "/upload/image/201811/79539bcc-44c8-4bbe-95d1-0febe7fade71.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "桶装水活动",
+          "type": 2,
+          "url": "http://www.omengo.com/web/?#/product-detail?skuId=1040502922716119040"
+        },
+        {
+          "image": "/upload/image/201810/942b7b3b-4030-41db-a3fd-40ea7ec6d733.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "每晚生鲜7点后4.9折",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1037910978924118016"
+        }
+      ]
+    },
+    "currentTime": "2018-11-09 09:21:58",
+    "code": 1,
+    "siteImageUrl": "https://fsomengo.oss-cn-shenzhen.aliyuncs.com",
+    "siteName": "送哟",
+    "message": null
+  },
+  {
+    "id": 10,
+    "datum": {
+      "storeProductCategory": [
+        {
+          "image": "/upload/image/201809/db37045b-d31c-499d-acb8-57a3fa49b2e8.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/39a782bd-4006-4447-a87d-4089a95491e2.jpg",
+              "unit": "600g-650g",
+              "promotions": [
+                {
+                  "name": "橙子",
+                  "title": "8折"
+                }
+              ],
+              "price": "10.80",
+              "availableStock": 1,
+              "name": "12糖赣南脐橙",
+              "discountPrice": "8.64",
+              "id": 1059920870782271488,
+              "type": {},
+              "brand": "",
+              "sid": "1059920870782271488"
+            },
+            {
+              "image": "/upload/image/201811/23dfe999-286d-4b6c-a861-ee0ce23bfb7b.jpg",
+              "unit": "350g-380g",
+              "promotions": [
+                {
+                  "name": "山楂",
+                  "title": "8折"
+                }
+              ],
+              "price": "6.90",
+              "availableStock": 1,
+              "name": "精品山楂",
+              "discountPrice": "5.52",
+              "id": 1059920870622887936,
+              "type": {},
+              "brand": "",
+              "sid": "1059920870622887936"
+            },
+            {
+              "image": "/upload/image/201811/5f5df80a-f1de-4c4c-9f79-fb2f1e417f23.jpg",
+              "unit": "520g-550g",
+              "promotions": [
+                {
+                  "name": "苹果",
+                  "title": "8折"
+                }
+              ],
+              "price": "12.80",
+              "availableStock": 1,
+              "name": "精品苹果",
+              "discountPrice": "10.24",
+              "id": 1059920870438338560,
+              "type": {},
+              "brand": "",
+              "sid": "1059920870438338560"
+            },
+            {
+              "image": "/upload/image/201811/1991ed24-52cf-4286-b0f6-553c992f1447.jpg",
+              "unit": "1000g-1300g",
+              "promotions": [
+                {
+                  "name": "沙田柚",
+                  "title": "特价"
+                }
+              ],
+              "price": "13.80",
+              "availableStock": 7,
+              "name": "梅县沙田柚",
+              "discountPrice": "9.89",
+              "id": 1059920870270566400,
+              "type": {},
+              "brand": "",
+              "sid": "1059920870270566400"
+            },
+            {
+              "image": "/upload/image/201811/4cda4c8b-b1f0-43ad-bb1e-c92dd0ec8507.jpg",
+              "unit": "430g-450g",
+              "promotions": [
+                {
+                  "name": "胡萝卜",
+                  "title": "8折"
+                }
+              ],
+              "price": "4.50",
+              "availableStock": 3,
+              "name": "包装带泥红萝卜",
+              "discountPrice": "3.60",
+              "id": 1059920870106988544,
+              "type": {},
+              "brand": "",
+              "sid": "1059920870106988544"
+            }
+          ],
+          "name": "每日生鲜",
+          "id": 1038014027243978752,
+          "sid": "1038014027243978752"
+        },
+        {
+          "image": "/upload/image/201809/f293b706-cbe0-4628-9aca-df6e21be608c.png",
+          "children": [
+            {
+              "image": "/upload/image/201808/3ca00458-b323-4c91-a53c-76b80c9b7087.jpg",
+              "unit": "46g/包",
+              "promotions": [],
+              "price": "1.50",
+              "availableStock": 39,
+              "name": "华丰魔法士意式番茄味",
+              "discountPrice": "0.00",
+              "weight": 30,
+              "id": 1038011903982436352,
+              "type": {},
+              "brand": "魔法士",
+              "sid": "1038011903982436352"
+            },
+            {
+              "image": "/upload/image/201808/d212df5e-8d80-4e13-bd17-85faf73ae767.jpg",
+              "unit": "35g/条",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 16,
+              "name": "洽洽喀吱脆薯片麻辣香锅",
+              "discountPrice": "0.00",
+              "weight": 12,
+              "id": 1038011897292521472,
+              "type": {},
+              "brand": "洽洽",
+              "sid": "1038011897292521472"
+            },
+            {
+              "image": "/upload/image/201803/4c0334b7-c770-4679-8777-e0446b23a601.jpg",
+              "unit": "18g/包",
+              "promotions": [],
+              "price": "1.00",
+              "availableStock": 5,
+              "name": "海鲜风味卜卜星",
+              "discountPrice": "0.00",
+              "weight": 25,
+              "id": 1038011815742668800,
+              "type": {},
+              "brand": "卜卜星",
+              "sid": "1038011815742668800"
+            },
+            {
+              "image": "/upload/image/201801/599d0cae-8c8e-47f0-a673-1ab962fb6463.jpg",
+              "unit": "20g/包",
+              "promotions": [],
+              "price": "0.50",
+              "availableStock": 36,
+              "name": "蟹味粒",
+              "discountPrice": "0.00",
+              "weight": 40,
+              "id": 1038011752068939776,
+              "type": {},
+              "brand": "咪咪",
+              "sid": "1038011752068939776"
+            },
+            {
+              "image": "/upload/image/201801/955a52ec-0fe4-45be-82d0-609f4a89c430.jpg",
+              "unit": "20g/包",
+              "promotions": [],
+              "price": "0.50",
+              "availableStock": 9,
+              "name": "虾味条",
+              "discountPrice": "0.00",
+              "weight": 40,
+              "id": 1038011751892779008,
+              "type": {},
+              "brand": "咪咪",
+              "sid": "1038011751892779008"
+            }
+          ],
+          "name": "休闲零食",
+          "id": 1038014040296652800,
+          "sid": "1038014040296652800"
+        },
+        {
+          "image": "/upload/image/201809/c53ccdf2-3259-4e1e-8a22-b745f0d0bb5a.png",
+          "children": [
+            {
+              "image": "/upload/image/201811/9c06b157-85e3-44a3-b29a-cd7ad166769d.png",
+              "unit": "1套",
+              "promotions": [],
+              "price": "148.00",
+              "availableStock": 4,
+              "name": "恒大兴安套餐",
+              "discountPrice": "0.00",
+              "id": 1056727325678239744,
+              "type": {},
+              "brand": "恒大兴安",
+              "sid": "1056727325678239744"
+            },
+            {
+              "image": "/upload/image/201807/dd4a4445-df33-45d2-b85a-4cf3d8785757.jpg",
+              "unit": "454g/包",
+              "promotions": [],
+              "price": "12.00",
+              "availableStock": 7,
+              "name": "优级白砂糖",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1038011881593241600,
+              "type": {},
+              "brand": "太古",
+              "sid": "1038011881593241600"
+            },
+            {
+              "image": "/upload/image/201802/25579098-d4dc-4111-986c-b2b32ed5ad17.jpg",
+              "unit": "5L/瓶",
+              "promotions": [],
+              "price": "115.00",
+              "availableStock": 2,
+              "name": "金龙鱼特香花生油",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1038011697941446656,
+              "type": {},
+              "brand": "金龙鱼",
+              "sid": "1038011697941446656"
+            },
+            {
+              "image": "/upload/image/201802/02ba503a-d17a-431d-813b-ee23700e0e93.jpg",
+              "unit": "250g/袋",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 17,
+              "name": "加碘低钠盐",
+              "discountPrice": "0.00",
+              "weight": 10,
+              "id": 1038011677431300096,
+              "type": {},
+              "brand": "广东盐业",
+              "sid": "1038011677431300096"
+            },
+            {
+              "image": "/upload/image/201801/4616c9bb-4ec0-436d-9860-ae0202ed2173.jpg",
+              "unit": "5L/瓶",
+              "promotions": [],
+              "price": "149.00",
+              "availableStock": 2,
+              "name": "5S压榨一级花生油",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1038011575534878720,
+              "type": {},
+              "brand": "鲁花",
+              "sid": "1038011575534878720"
+            }
+          ],
+          "name": "粮油调味",
+          "id": 1038014130675515392,
+          "sid": "1038014130675515392"
+        },
+        {
+          "image": "/upload/image/201809/3e2a97f8-8240-4e21-9e19-52760d4bae7d.png",
+          "children": [
+            {
+              "image": "/upload/image/201807/6fe50665-84f1-40f6-a23b-d7d1cded07f6.jpg",
+              "unit": "550ml*12瓶/提",
+              "promotions": [],
+              "price": "18.00",
+              "availableStock": 1,
+              "name": "农夫山泉饮用天然水",
+              "discountPrice": "0.00",
+              "weight": 1,
+              "id": 1038011902292131840,
+              "type": {},
+              "brand": "农夫山泉",
+              "sid": "1038011902292131840"
+            },
+            {
+              "image": "/upload/image/201802/d22b2f53-4058-48ad-8fda-7af77d7db65b.jpg",
+              "unit": "330ml/罐",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 24,
+              "name": "雪碧罐装",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1038011542110470144,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "1038011542110470144"
+            },
+            {
+              "image": "/upload/image/201801/1cb270d2-76d9-4479-84e2-c20e896906f2.jpg",
+              "unit": "330ml/听",
+              "promotions": [],
+              "price": "2.00",
+              "availableStock": 32,
+              "name": "可口可乐汽水罐装",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1038011541351301120,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "1038011541351301120"
+            },
+            {
+              "image": "/upload/image/201801/bbeea27f-0ae8-46b1-a5ca-1ef212e7aa8f.jpg",
+              "unit": "450ml/瓶",
+              "promotions": [],
+              "price": "3.00",
+              "availableStock": 9,
+              "name": "美汁源果粒橙",
+              "discountPrice": "0.00",
+              "weight": 24,
+              "id": 1038011540759904256,
+              "type": {},
+              "brand": "可口可乐",
+              "sid": "1038011540759904256"
+            }
+          ],
+          "name": "饮料冲调",
+          "id": 1038014068520124416,
+          "sid": "1038014068520124416"
+        }
+      ],
+      "hotSearch": ["可乐", "面", "啤酒", "鸡蛋", "辣条", "薯片", "花生"],
+      "wallAdImages": [],
+      "extra": [
+        {
+          "availableStock": 5,
+          "brand": "鼎湖山泉",
+          "discountPrice": "0.00",
+          "id": 1038011654169690112,
+          "image": "/upload/image/201802/18b5fc86-e799-4f45-a49d-0a0cd37c504b.jpg",
+          "marketPrice": "0.00",
+          "name": "鼎湖山泉水桶装水",
+          "price": 22,
+          "promotions": [],
+          "sid": "1038011654169690112",
+          "type": "general",
+          "unit": "19L/桶",
+          "weight": 1
+        },
+        {
+          "availableStock": 46,
+          "brand": "哈尔滨",
+          "discountPrice": "0.00",
+          "id": 1038011583776686080,
+          "image": "/upload/image/201801/8c711975-cccd-42b7-93bf-f30bd992e720.jpg",
+          "marketPrice": "0.00",
+          "name": "冰爽啤酒",
+          "price": 3,
+          "promotions": [],
+          "sid": "1038011583776686080",
+          "type": "general",
+          "unit": "330ml/罐",
+          "weight": 24
+        },
+        {
+          "availableStock": 9,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 1038011751892779008,
+          "image": "/upload/image/201801/955a52ec-0fe4-45be-82d0-609f4a89c430.jpg",
+          "marketPrice": "0.00",
+          "name": "虾味条",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "1038011751892779008",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 40
+        },
+        {
+          "availableStock": 36,
+          "brand": "咪咪",
+          "discountPrice": "0.00",
+          "id": 1038011752068939776,
+          "image": "/upload/image/201801/599d0cae-8c8e-47f0-a673-1ab962fb6463.jpg",
+          "marketPrice": "0.00",
+          "name": "蟹味粒",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "1038011752068939776",
+          "type": "general",
+          "unit": "20g/包",
+          "weight": 40
+        },
+        {
+          "availableStock": 59,
+          "brand": "百威",
+          "discountPrice": "0.00",
+          "id": 1038011583382421504,
+          "image": "/upload/image/201801/c0ecd2f7-49c0-49bb-8d06-6505b4ea1d8e.jpg",
+          "marketPrice": "0.00",
+          "name": "啤酒",
+          "price": 7.5,
+          "promotions": [],
+          "sid": "1038011583382421504",
+          "type": "general",
+          "unit": "500ml/罐",
+          "weight": 24
+        },
+        {
+          "availableStock": 112,
+          "brand": "徐福记",
+          "discountPrice": "0.00",
+          "id": 1038011617352089600,
+          "image": "/upload/image/201711/f9222444-f2ad-4cc7-9f9f-a42565a9b35c_thumbnail.jpg",
+          "marketPrice": "0.00",
+          "name": "徐福记果味多嘟棒棒糖",
+          "price": 0.5,
+          "promotions": [],
+          "sid": "1038011617352089600",
+          "type": "general",
+          "unit": "9.5g/个",
+          "weight": 108
+        }
+      ],
+      "middleAds": [],
+      "store": {
+        "address": "送哟博澳城店：勒流博澳城7区首层8号商铺",
+        "id": 10,
+        "name": "博澳城店",
+        "type": "self",
+        "work_hours": "07:00-23:59"
+      },
+      "cppStoreAdImages": [
+        {
+          "image": "/upload/image/201811/7d13a6ec-84a8-4ba2-9b0e-5cf677576bd7.jpg",
+          "orders": null,
+          "phone": null,
+          "title": "双11弹窗",
+          "type": 2,
+          "url": null
+        }
+      ],
+      "storeId": 10,
+      "bottomAds": [],
+      "interactionImages": [
+        {
+          "image": "/upload/image/201810/ed4b73bc-ee72-4c24-98ef-c0b578c2e494.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "零食周",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1057476337855365120"
+        },
+        {
+          "image": "/upload/image/201811/0937ade9-9915-452e-86f2-983e672ec10a.jpg",
+          "orders": 2,
+          "phone": null,
+          "title": "方便美食",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1038014027243978752&subCategoryId=1046577082122895360"
+        },
+        {
+          "image": "/upload/image/201810/0976e98a-5d77-4b77-bce7-a2b99a712bd2.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "无糖",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1038014068520124416&subCategoryId=1038014070541778944"
+        },
+        {
+          "image": "/upload/image/201810/c2bb084d-0a30-4733-aa42-ba952f32a2c0.jpg",
+          "orders": 4,
+          "phone": null,
+          "title": "饮水机",
+          "type": 5,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1038014129949900800"
+        }
+      ],
+      "storeAdImages": [
+        {
+          "image": "/upload/image/201811/02f889f3-6aab-4bde-b753-a9e8c88e5128.jpg",
+          "orders": null,
+          "phone": "http://www.omen",
+          "title": "双十一活动",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1059364452484251648"
+        },
+        {
+          "image": "/upload/image/201810/e8981b97-b529-4548-b2fe-6d743e6a0757.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": "生鲜4.9折",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/category?categoryId=1038014027243978752"
+        },
+        {
+          "image": "/upload/image/201811/2b5253fa-1045-4866-9b8a-ba296ae93f70.jpg",
+          "orders": 3,
+          "phone": null,
+          "title": "桶装水活动",
+          "type": 1,
+          "url": "http://www.omengo.com/web/?#/product-detail?skuId=1040502924137988096"
+        }
+      ]
+    },
+    "currentTime": "2018-11-09 09:14:34",
+    "code": 1,
+    "siteImageUrl": "https://fsomengo.oss-cn-shenzhen.aliyuncs.com",
+    "siteName": "送哟",
+    "message": null
+  },
+  {
+    "id": 11,
+    "datum": {
+      "storeProductCategory": [],
+      "hotSearch": ["可乐", "面", "啤酒", "鸡蛋", "辣条", "薯片", "花生"],
+      "wallAdImages": [],
+      "extra": [],
+      "middleAds": [],
+      "store": {
+        "address": "时代倾城商业街136号铺",
+        "id": 11,
+        "name": "时代倾城店",
+        "type": "self",
+        "work_hours": "07:00-23:59"
+      },
+      "cppStoreAdImages": [],
+      "storeId": 11,
+      "bottomAds": [],
+      "interactionImages": [],
+      "storeAdImages": [
+        {
+          "image": "/upload/image/201811/f57c9ae6-ef18-4175-9949-6c80fb5e8de9.jpg",
+          "orders": 1,
+          "phone": null,
+          "title": null,
+          "type": 0,
+          "url": null
+        }
+      ]
+    },
+    "currentTime": "2018-11-09 09:22:24",
+    "code": 1,
+    "siteImageUrl": "https://fsomengo.oss-cn-shenzhen.aliyuncs.com",
+    "siteName": "送哟",
+    "message": null
+  }
+]

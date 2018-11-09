@@ -36,5 +36,10 @@ export default new Router({
       name: 'selectStore',
       component: () => import(/* webpackChunkName: "personal" */ './views/SelectStore.vue'),
     },
+    {
+      path: '/search',
+      name: 'search',
+      component: () => import(/* webpackChunkName: "personal" */ './views/Search/index.vue'),
+    },
   ],
 });

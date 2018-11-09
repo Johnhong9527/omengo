@@ -13,6 +13,7 @@ import {
   TabbarItem,
   NavBar,
   Lazyload,
+  Toast,
 } from 'vant';
 import 'amfe-flexible';
 import App from './App.vue';
@@ -31,6 +32,7 @@ Vue.use(Tabbar).use(TabbarItem);
 Vue.use(NavBar);
 // options 为可选参数，无则不传
 Vue.use(Lazyload);
+Vue.use(Toast);
 // Vue.use(ajaxPlugin);
 Vue.prototype.$http = ajaxPlugin;
 // console.log(ajax)

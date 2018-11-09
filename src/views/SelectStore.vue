@@ -37,12 +37,17 @@ export default {
     };
   },
   created() {
+    const toast = this.$toast.loading({
+      mask: true,
+      message: '加载中...',
+    });
     this.$http
       .get('http://www.sonyo.com/api/index/store_select_group_area?lat=&lng=')
-      .then((data) => {
+      .then(data => {
         console.log(data);
         this.storeSelectGroupArea = data.datum;
         this.initScroll();
+        toast.clear();
       });
   },
   updated() {

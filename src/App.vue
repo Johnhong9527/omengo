@@ -51,6 +51,7 @@ export default {
 </script>
 
 <style lang="stylus">
+@import './assets/style.styl'
 *
   padding 0
   margin 0

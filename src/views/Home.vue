@@ -7,17 +7,15 @@
           alt="">
       </van-swipe-item>
       <div class="custom-indicator" slot="indicator" style="color:red;">
-        <!-- {{ current + 1 }}/4 -->
-        <div v-for="(item, index) in [0,1,2,3]" :key="index" v-bind:class="{active:index==current}">
-          <!-- {{item+1}} -->
+        <div v-for="(item, index) in datum.storeAdImages" :key="index"
+          v-bind:class="{active:index==current}">
         </div>
       </div>
     </van-swipe>
     <div style="font-size:14px;" @click='removeItem'>
       localStorage.removeItem("key");
     </div>
-    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <img alt="Vue logo" src="../assets/logo.png">
     <van-loading />
     <van-loading color="red" />
   </div>
@@ -58,7 +56,7 @@ export default {
   },
   computed: {
     ...mapState({
-      datum: (state) => state.datum,
+      datum: state => state.datum,
     }),
   },
   mounted() {
@@ -77,6 +75,16 @@ export default {
 <style lang="stylus" scoped>
 vSwipeHeight = 205px
 vanSwipeIndicator = 90px
+.home
+  // &:after
+  // content ''
+  // position fixed
+  // z-index 1
+  // top 0
+  // bottom 0
+  // right 0
+  // left 0
+  // background-color #000
 .van-swipe
   height vSwipeHeight
   .van-swipe-item
