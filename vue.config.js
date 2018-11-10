@@ -18,3 +18,19 @@
 //     }
 //   }
 // };
+
+module.exports = {
+  devServer: {
+    host: '0.0.0.0',
+    port: 8080,
+    proxy: {
+      '/api': {
+        target: 'http://www.sonyo.com/api/',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/api': '/',
+        },
+      },
+    },
+  },
+};

@@ -4,33 +4,55 @@ import axios from 'axios';
 import qs from 'qs';
 //添加请求拦截器
 axios.interceptors.request.use(
-  config => {
+  (config) => {
     return config;
   },
-  error => {
+  (error) => {
     return Promise.reject(error);
   },
 );
 //添加响应拦截器
 axios.interceptors.response.use(
-  response => {
+  (response) => {
     return response;
   },
-  error => {
+  (error) => {
     return Promise.resolve(error.response);
   },
 );
-axios.defaults.baseURL = 'https://www.xxxx/api';
-axios.defaults.headers.post['Content-Type'] = 'application/json';
-axios.defaults.headers.post['X-Requested-With'] = 'XMLHttpRequest';
-axios.defaults.timeout = 10000;
+// axios.defaults.baseURL = 'http://www.sonyo.com/api';
+// axios.defaults.baseURL = '/';
+// axios.defaults.headers.post['Content-Type'] = 'application/json';
+// axios.defaults.headers.post['X-Requested-With'] = 'XMLHttpRequest';
+// axios.defaults.timeout = 10000;
+
+function setOpts(opts) {
+  return {
+    method: opts.method,
+    baseURL: '/', // 测试
+    url: opts.url,
+    timeout: 10000,
+    params: opts.params,
+    data: opts.params,
+    headers:
+      opts.method == 'get'
+        ? {
+            'X-Requested-With': 'XMLHttpRequest',
+            'Content-Type': 'application/json; charset=UTF-8',
+          }
+        : {
+            'Content-Type': 'application/json;charset=UTF-8',
+          },
+  };
+}
+
 function checkStatus(response) {
   return new Promise((resolve, reject) => {
     if (
       response &&
       (response.status === 200 || response.status === 304 || response.status === 400)
     ) {
-      resolve(response.data);
+      resolve(response.data.datum);
     } else {
       reject({
         state: '0',
@@ -41,20 +63,24 @@ function checkStatus(response) {
 }
 export default {
   post(url, params) {
-    return axios({
-      method: 'post',
-      url,
-      data: params,
-    }).then(response => {
+    return axios(
+      setOpts({
+        method: 'post',
+        url: url,
+        params: params,
+      }),
+    ).then((response) => {
       return checkStatus(response);
     });
   },
   get(url, params) {
-    return axios({
-      method: 'get',
-      url,
-      params,
-    }).then(response => {
+    return axios(
+      setOpts({
+        method: 'get',
+        url: url,
+        params: params,
+      }),
+    ).then((response) => {
       return checkStatus(response);
     });
   },

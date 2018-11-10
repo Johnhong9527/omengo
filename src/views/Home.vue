@@ -47,7 +47,6 @@ export default {
         // eslint-disable-next-line
         this.storeId = JSON.parse(storage.__H5__store__).id;
         // this.getDatum(this.storeId);
-        // console.log(this.$store.state.datum);
       }
     }
   },

@@ -1,46 +1,72 @@
 <template>
   <div class="search-wrappper">
     <div class="search-bar">
-      <div class="arrow" @click='onClickLeft'><img src="/img/arrow.png" alt=""></div>
+      <div class="arrow" @click='onClickLeft'><img
+          src="/img/arrow.png" alt=""></div>
       <div class="input">
-        <input type="search" placeholder="请输入商品、品牌名称进行搜索" v-model="searchName">
+        <input type="search" placeholder="请输入商品、品牌名称进行搜索"
+          v-model="searchName">
       </div>
       <div class="btn" @click="searchFn(searchName)">
         搜索
       </div>
     </div>
     <div class="history-hot-wrapper">
-      <div class="hot-title"><img src="/img/hot.png" alt=""><span>热门搜索</span></div>
+      <div class="hot-title"><img src="/img/hot.png"
+          alt=""><span>热门搜索</span></div>
       <ul class="hot-list">
-        <li v-for="(item, index) in datum.hotSearch" :key='index' @click="searchFn(item)">
+        <li v-for="(item, index) in datum.hotSearch"
+          :key='index' @click="searchFn(item)">
           {{item}}
         </li>
       </ul>
-      <div class="history-title"><img src="/img/history.png" alt=""><span>搜索历史</span></div>
+      <div class="history-title"><img src="/img/history.png"
+          alt=""><span>搜索历史</span></div>
       <ul v-if="historyList" class="history-list">
-        <li v-for="(item, index) in historyList" :key='index' @click="searchFn(item)">
+        <li v-for="(item, index) in historyList"
+          :key='index' @click="searchFn(item)">
           {{item}}
         </li>
       </ul>
-
     </div>
+    <!-- eslint-disable-next-line -->
+    <Searchlist class="search-list-wrapper" v-if="searchLit && searchLit.totalRow > 0 && searchShowLit"
+      :list='searchLit' />
   </div>
 </template>
 <script>
+import Searchlist from './list.vue';
+
 export default {
   data() {
     return {
       datum: '',
       searchName: '',
+      searchLit: [],
+      searchShowLit: false,
     };
   },
   created() {
-    this.datum = this.$store.state.datum;
+    if (this.$store.state.datum.hotSearch === undefined) {
+      this.$router.push({ path: '/' });
+    } else {
+      this.datum = this.$store.state.datum;
+    }
   },
   computed: {
     historyList() {
       const history = localStorage.getItem('__H5__history__');
       return history === undefined ? false : JSON.parse(history);
+    },
+  },
+  components: {
+    Searchlist,
+  },
+  watch: {
+    searchName(val, oldVal) {
+      if (val === '' || val !== oldVal) {
+        this.searchShowLit = false;
+      }
     },
   },
   methods: {
@@ -68,6 +94,22 @@ export default {
           localStorage.setItem('__H5__history__', JSON.stringify(historyArr));
         }
       }
+      console.log(this.$store.state.datum.storeId);
+      this.getData(name);
+    },
+    getData(name) {
+      this.$http
+        .post('/api/search', {
+          keyword: name,
+          storeId: this.$store.state.datum.storeId,
+          pageSize: 40,
+        })
+        .then((data) => {
+          this.$nextTick(() => {
+            this.searchShowLit = true;
+            this.searchLit = data;
+          });
+        });
     },
     onClickLeft() {
       this.$router.push({ path: '/' });

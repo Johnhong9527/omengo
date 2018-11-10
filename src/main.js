@@ -31,7 +31,9 @@ Vue.use(Icon);
 Vue.use(Tabbar).use(TabbarItem);
 Vue.use(NavBar);
 // options 为可选参数，无则不传
-Vue.use(Lazyload);
+Vue.use(Lazyload, {
+  loading: '/img/no-img.jpeg',
+});
 Vue.use(Toast);
 // Vue.use(ajaxPlugin);
 Vue.prototype.$http = ajaxPlugin;
@@ -51,5 +53,5 @@ new Vue({
   router,
   store,
   // eslint-disable-next-line
-  render: h => h(App),
+  render: (h) => h(App),
 }).$mount('#app');

@@ -42,10 +42,9 @@ export default {
       message: '加载中...',
     });
     this.$http
-      .get('http://www.sonyo.com/api/index/store_select_group_area?lat=&lng=')
+      .get('/api/index/store_select_group_area?lat=&lng=')
       .then(data => {
-        console.log(data);
-        this.storeSelectGroupArea = data.datum;
+        this.storeSelectGroupArea = data;
         this.initScroll();
         toast.clear();
       });
@@ -69,7 +68,6 @@ export default {
       }
     },
     select(item) {
-      console.log(item);
       // 主逻辑业务
       const storage = window.localStorage;
       // eslint-disable-next-line
