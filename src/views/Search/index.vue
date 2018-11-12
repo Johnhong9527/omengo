@@ -1,30 +1,24 @@
 <template>
   <div class="search-wrappper">
     <div class="search-bar">
-      <div class="arrow" @click='onClickLeft'><img
-          src="/img/arrow.png" alt=""></div>
+      <div class="arrow" @click='onClickLeft'><img src="/img/arrow.png" alt=""></div>
       <div class="input">
-        <input type="search" placeholder="请输入商品、品牌名称进行搜索"
-          v-model="searchName">
+        <input type="search" placeholder="请输入商品、品牌名称进行搜索" v-model="searchName">
       </div>
       <div class="btn" @click="searchFn(searchName)">
         搜索
       </div>
     </div>
     <div class="history-hot-wrapper">
-      <div class="hot-title"><img src="/img/hot.png"
-          alt=""><span>热门搜索</span></div>
+      <div class="hot-title"><img src="/img/hot.png" alt=""><span>热门搜索</span></div>
       <ul class="hot-list">
-        <li v-for="(item, index) in datum.hotSearch"
-          :key='index' @click="searchFn(item)">
+        <li v-for="(item, index) in datum.hotSearch" :key='index' @click="searchFn(item)">
           {{item}}
         </li>
       </ul>
-      <div class="history-title"><img src="/img/history.png"
-          alt=""><span>搜索历史</span></div>
+      <div class="history-title"><img src="/img/history.png" alt=""><span>搜索历史</span></div>
       <ul v-if="historyList" class="history-list">
-        <li v-for="(item, index) in historyList"
-          :key='index' @click="searchFn(item)">
+        <li v-for="(item, index) in historyList" :key='index' @click="searchFn(item)">
           {{item}}
         </li>
       </ul>
@@ -32,10 +26,12 @@
     <!-- eslint-disable-next-line -->
     <Searchlist class="search-list-wrapper" v-if="searchLit && searchLit.totalRow > 0 && searchShowLit"
       :list='searchLit' />
+    <Shopcart />
   </div>
 </template>
 <script>
 import Searchlist from './list.vue';
+import Shopcart from '@/components/shopcart/index.vue';
 
 export default {
   data() {
@@ -61,6 +57,7 @@ export default {
   },
   components: {
     Searchlist,
+    Shopcart,
   },
   watch: {
     searchName(val, oldVal) {
@@ -104,7 +101,7 @@ export default {
           storeId: this.$store.state.datum.storeId,
           pageSize: 40,
         })
-        .then((data) => {
+        .then(data => {
           this.$nextTick(() => {
             this.searchShowLit = true;
             this.searchLit = data;

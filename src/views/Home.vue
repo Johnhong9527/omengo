@@ -16,8 +16,8 @@
       localStorage.removeItem("key");
     </div>
     <img alt="Vue logo" src="../assets/logo.png">
-    <van-loading />
-    <van-loading color="red" />
+    <!-- <van-loading /> -->
+    <!-- <van-loading color="red" /> -->
   </div>
 </template>
 
