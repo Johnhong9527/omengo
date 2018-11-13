@@ -24,9 +24,13 @@ export default {
     position absolute
     top 0
     right 0
-    font-size 10px
-    border-radius 50%
+    font-size 5px
+    border-radius 100%
     padding 3px 5px
+    // width 15px
+    // height 15px
+    // line-height 15px
+    // text-align center
     color #fff
     background-color red
   .shopcart

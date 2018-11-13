@@ -13,16 +13,18 @@
         </div>
         <div class="price">
           ￥{{item.price |priceF}}<span class="unit">{{item.unit}}</span><img
-            @click="add(item)" src="/img/cat.png" alt="">
+            @click="add($event,item,index)" src="/img/cat.png" alt="">
         </div>
         {{item.promotions}}
       </li>
     </ul>
-    <transition name="point" v-on:before-enter="beforeEnter" v-on:enter="enter"
-      v-on:leave="leave">
-      <div v-if="point.show" class="point" :style="{left:point.x,top:point.y}">
+    <Shopcart ref='shopCart' />
+    <transition name="point" v-on:before-enter=" beforeEnter" v-on:enter="enter"
+      v-on:after-enter="afterEnter">
+      <!-- <div v-show="point.show" class="point" :style="{left:point.x,top:point.y}"> -->
+      <div v-if="point.show" class="point">
         <!-- <span>{{point.x}}</span><br /><span>{{point.y}}</span> -->
-        <img :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+point.image"
+        <img class="goods-img" :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+point.image"
           alt="">
       </div>
     </transition>
@@ -32,6 +34,7 @@
 /* eslint-disable */
 import Bscroll from 'better-scroll';
 import Velocity from 'velocity-animate';
+import Shopcart from '@/components/shopcart/index.vue';
 
 export default {
   name: 'search-list',
@@ -42,6 +45,7 @@ export default {
         y: null,
         image: '',
         show: false,
+        el: '',
       },
     };
   },
@@ -54,6 +58,9 @@ export default {
     priceF(price) {
       return price.toFixed(2);
     },
+  },
+  components: {
+    Shopcart,
   },
   methods: {
     initScroll() {
@@ -69,74 +76,53 @@ export default {
         this.scroll.refresh();
       }
     },
-    add(item) {
+    add(event, item, index) {
+      if (!event._constructed) {
+        return;
+      }
       this.$nextTick(() => {
-        const wrapperWidth = this.scroll.wrapperWidth / 2;
+        // this.point.el = event.target;
+        this.point.el = this.$refs.goods[index].childNodes[0];
         this.point.show = true;
         this.point.image = item.image;
-        // eslint-disable-next-line
-        this.point.x =
-          this.scroll.pointX < wrapperWidth
-            ? `${16 / 37.5}rem`
-            : `${(wrapperWidth + 8) / 37.5}rem`;
-        this.point.y = `${this.scroll.pointY - 160 - 60}px`;
-        console.log(this.point.x);
-        // console.log(this.point.y);
       });
     },
     beforeEnter(el) {
-      // console.log('beforeEnter');
-      // Velocity(
-      //   el,
-      //   { left: this.point.x, top: this.point.y },
-      //   // { duration: 300 },
-      // );
-      // el.style.right = '10px';
-      // el.style.bottom = '40px';
+      // 设置动画的起始状态
+      let rect = this.point.el.getBoundingClientRect();
+      el.style.top = `${rect.top}px`;
+      el.style.left = `${rect.left}px`;
+      // el.style.transformScale = 1;
     },
     enter(el, done) {
-      // console.log('enter');
-      // // :style="{left:point.x,top:point.y}"
-      // console.log(this.point.x);
-      // console.log(this.point.y);
-      // this.$nextTick(() => {
-      //   el.style.left = this.point.x;
-      //   el.style.top = this.point.y;
-      // });
-      // done();
+      let rect = this.$refs.shopCart.$el.getBoundingClientRect();
       // Velocity(
       //   el,
-      //   // { left: this.point.x, top: this.point.y },
-      //   { duration: 300 },
+      //   {
+      //     top: `${rect.top - 50}px`,
+      //     left: `${rect.left - 50}px`,
+      //     scale: 0,
+      //     opacity: 0,
+      //   },
+      //   {
+      //     duration: 500,
+      //     complete: done,
+      //   },
       // );
-      Velocity(el, { opacity: 1, fontSize: '1.4em' }, { duration: 300 });
-      Velocity(el, { fontSize: '1em' }, { complete: done });
-      // Velocity(el, { fontSize: '1em' }, { complete: done });
-      // this.point.show = false;
-      // Velocity(el, { fontSize: '1em' }, { complete: done })
+      el.style.webkitTransform = 'translate3d(0,0,0)';
+      el.style.transform = 'translate3d(0,0,0)';
+      el.style.top = `${rect.top - 50}px`;
+      el.style.left = `${rect.left - 50}px`;
+      el.style.transform = 'scale(0)';
+      el.style.opacity = 0;
+      el.addEventListener('transitionend', done);
     },
-    leave(el, done) {
-      // console.log('leave');
-      // Velocity(
-      //   el,
-      //   {
-      //     left: '10px',
-      //     bottom: '40px',
-      //   },
-      //   { complete: done },
-      // );
-      // this.point.show = false;
-      // done();
-      // Velocity(el, { translateX: '15px', rotateZ: '50deg' }, { duration: 600 });
-      // Velocity(el, { rotateZ: '100deg' }, { loop: 2 });
-      // Velocity(
-      //   el,
-      //   {
-      //     right: '10px',
-      //     bottom: '40px',
-      //   },
-      //   { duration: 600 },
-      // );
+    afterEnter(el, done) {
+      this.$nextTick(() => {
+        this.point.show = false;
+        el.style.display = 'none';
+        this.point.el = '';
+      });
     },
   },
 };
@@ -212,13 +198,12 @@ export default {
         height 28px
   .point
     position fixed
-    z-index 2
-    // background-color red
+    z-index 4
     width 160px
     height 160px
+    transition all 0.7s cubic-bezier(0.49, -0.29, 0.75, 0.41)
     img
       width 100%
       height 100%
       display block
-      // border 1px solid #000
 </style>

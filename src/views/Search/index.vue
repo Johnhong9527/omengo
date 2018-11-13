@@ -26,12 +26,11 @@
     <!-- eslint-disable-next-line -->
     <Searchlist class="search-list-wrapper" v-if="searchLit && searchLit.totalRow > 0 && searchShowLit"
       :list='searchLit' />
-    <Shopcart />
+
   </div>
 </template>
 <script>
 import Searchlist from './list.vue';
-import Shopcart from '@/components/shopcart/index.vue';
 
 export default {
   data() {
@@ -57,7 +56,6 @@ export default {
   },
   components: {
     Searchlist,
-    Shopcart,
   },
   watch: {
     searchName(val, oldVal) {
