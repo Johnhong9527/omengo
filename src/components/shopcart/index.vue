@@ -1,7 +1,7 @@
 <template>
   <div class="shopcart-wrapper">
     <div class="badge">
-      4
+      {{quantity}}
     </div>
     <div class="shopcart">
       <img src="/img/cat_btn.png" alt="">
@@ -9,9 +9,16 @@
   </div>
 </template>
 <script>
+import { mapState } from 'vuex';
+
 export default {
   name: 'shopcart',
   props: ['commodity'],
+  computed: {
+    ...mapState({
+      quantity: state => state.cat.quantity,
+    }),
+  },
 };
 </script>
 <style lang="stylus" scoped>
@@ -24,13 +31,9 @@ export default {
     position absolute
     top 0
     right 0
-    font-size 5px
+    font-size 8px
     border-radius 100%
     padding 3px 5px
-    // width 15px
-    // height 15px
-    // line-height 15px
-    // text-align center
     color #fff
     background-color red
   .shopcart

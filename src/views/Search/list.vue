@@ -1,10 +1,9 @@
 <template>
   <div class="search-list-wrapper" ref="wrappers">
     <ul>
-      <li class="m-goods-wrapper" v-for="(item, index) in list.list" :key="index"
-        ref='goods'>
+      <li class="m-goods-wrapper" v-for="(item, index) in list.list"
+        :key="index" ref='goods'>
         <div class="goods-image">
-          <!-- <img v-lazy="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image"> -->
           <img :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image">
         </div>
         <div class="promotion" style="visibility: hidden;">hidden</div>
@@ -13,14 +12,16 @@
         </div>
         <div class="price">
           ￥{{item.price |priceF}}<span class="unit">{{item.unit}}</span><img
-            @click="add($event,item,index)" src="/img/cat.png" alt="">
+            @click="add($event,item,index)" src="/img/cat.png"
+            alt="">
         </div>
         {{item.promotions}}
       </li>
+      <div></div>
     </ul>
     <Shopcart ref='shopCart' />
-    <transition name="point" v-on:before-enter=" beforeEnter" v-on:enter="enter"
-      v-on:after-enter="afterEnter">
+    <transition name="point" v-on:before-enter=" beforeEnter"
+      v-on:enter="enter" v-on:after-enter="afterEnter">
       <!-- <div v-show="point.show" class="point" :style="{left:point.x,top:point.y}"> -->
       <div v-if="point.show" class="point">
         <!-- <span>{{point.x}}</span><br /><span>{{point.y}}</span> -->
@@ -47,6 +48,7 @@ export default {
         show: false,
         el: '',
       },
+      isAdd: true,
     };
   },
   props: ['list'],
@@ -77,15 +79,46 @@ export default {
       }
     },
     add(event, item, index) {
+      if (!this.isAdd) return;
+      this.isAdd = false;
+      const seft = this;
       if (!event._constructed) {
         return;
       }
-      this.$nextTick(() => {
-        // this.point.el = event.target;
-        this.point.el = this.$refs.goods[index].childNodes[0];
-        this.point.show = true;
-        this.point.image = item.image;
+      const storage = window.localStorage;
+      const toast1 = seft.$toast.loading({
+        // mask: true,
+        message: '添加中...',
       });
+      seft.$http
+        .post('/api/cart/add', {
+          skuId: item.sid,
+          quantity: 1,
+          cartKey:
+            storage.getItem('__H5__cart__') === null
+              ? ''
+              : storage.getItem('__H5__cart__'),
+        })
+        .then(res => {
+          if (!res.code) {
+            toast1.clear();
+            // 设置 本地缓存
+            if (storage.getItem('__H5__cart__') === null) {
+              storage.setItem('__H5__cart__', res.cartKey);
+            }
+            seft.$nextTick(() => {
+              seft.point.el = seft.$refs.goods[index].childNodes[0];
+              seft.point.show = true;
+              seft.point.image = item.image;
+            });
+            this.$store.dispatch('setQuantity');
+          }
+
+          if (res.code === 2) {
+            seft.$toast(res.message);
+          }
+          this.isAdd = true;
+        });
     },
     beforeEnter(el) {
       // 设置动画的起始状态
@@ -143,6 +176,11 @@ export default {
     display flex
     width 100%
     flex-wrap wrap
+    margin-bottom 6px
+    & > div
+      width 100%
+      height 1px
+      margin-bottom 5px
   .m-goods-wrapper
     flex 0 0 46.4vw
     width 46.4vw
@@ -154,8 +192,8 @@ export default {
     position relative
     &:nth-child(1), &:nth-child(2)
       margin-top 4px
-    &:nth-last-child(1), &:nth-last-child(2)
-      margin-bottom 10px
+    // &:nth-last-child(1), &:nth-last-child(2)
+    // margin-bottom 10px
     &:nth-child(odd)
       margin-right 2px
     &:nth-child(even)

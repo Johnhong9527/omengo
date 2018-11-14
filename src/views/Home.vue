@@ -2,20 +2,22 @@
   <div class="home">
     <headerComponents />
     <van-swipe v-if='datum' :autoplay="3000" @change="onChange">
-      <van-swipe-item v-for="(item, index) in datum.storeAdImages" :key='index'>
+      <van-swipe-item v-for="(item, index) in datum.storeAdImages"
+        :key='index'>
         <img :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image"
           alt="">
       </van-swipe-item>
       <div class="custom-indicator" slot="indicator" style="color:red;">
-        <div v-for="(item, index) in datum.storeAdImages" :key="index"
-          v-bind:class="{active:index==current}">
+        <div v-for="(item, index) in datum.storeAdImages"
+          :key="index" v-bind:class="{active:index==current}">
         </div>
       </div>
     </van-swipe>
     <div style="font-size:14px;" @click='removeItem'>
       localStorage.removeItem("key");
     </div>
-    <img alt="Vue logo" src="../assets/logo.png">
+    <cppAdComponents v-if='datum && datum.cppStoreAdImages'
+      :cpp='datum.cppStoreAdImages' />
     <!-- <van-loading /> -->
     <!-- <van-loading color="red" /> -->
   </div>
@@ -27,6 +29,7 @@
 // eslint-disable-next-line
 import { mapState } from 'vuex';
 import headerComponents from '@/components/header/header.vue';
+import cppAdComponents from '@/components/cppAd/index.vue';
 
 export default {
   name: 'home',
@@ -52,15 +55,14 @@ export default {
   },
   components: {
     headerComponents,
+    cppAdComponents,
   },
   computed: {
     ...mapState({
       datum: state => state.datum,
     }),
   },
-  mounted() {
-    this.$store.dispatch('getDatum');
-  },
+  mounted() {},
   methods: {
     onChange(index) {
       this.current = index;

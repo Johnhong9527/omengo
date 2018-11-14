@@ -4,19 +4,19 @@ import axios from 'axios';
 import qs from 'qs';
 //添加请求拦截器
 axios.interceptors.request.use(
-  (config) => {
+  config => {
     return config;
   },
-  (error) => {
+  error => {
     return Promise.reject(error);
   },
 );
 //添加响应拦截器
 axios.interceptors.response.use(
-  (response) => {
+  response => {
     return response;
   },
-  (error) => {
+  error => {
     return Promise.resolve(error.response);
   },
 );
@@ -52,7 +52,11 @@ function checkStatus(response) {
       response &&
       (response.status === 200 || response.status === 304 || response.status === 400)
     ) {
-      resolve(response.data.datum);
+      if (response.data.code === 1) {
+        resolve(response.data.datum);
+      } else if (response.data.code === 2) {
+        resolve(response.data);
+      }
     } else {
       reject({
         state: '0',
@@ -69,7 +73,7 @@ export default {
         url: url,
         params: params,
       }),
-    ).then((response) => {
+    ).then(response => {
       return checkStatus(response);
     });
   },
@@ -80,7 +84,7 @@ export default {
         url: url,
         params: params,
       }),
-    ).then((response) => {
+    ).then(response => {
       return checkStatus(response);
     });
   },

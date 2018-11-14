@@ -1,9 +1,11 @@
 <template>
   <div class="search-wrappper">
     <div class="search-bar">
-      <div class="arrow" @click='onClickLeft'><img src="/img/arrow.png" alt=""></div>
+      <div class="arrow" @click='onClickLeft'><img src="/img/arrow.png"
+          alt=""></div>
       <div class="input">
-        <input type="search" placeholder="请输入商品、品牌名称进行搜索" v-model="searchName">
+        <input type="search" placeholder="请输入商品、品牌名称进行搜索"
+          v-model="searchName">
       </div>
       <div class="btn" @click="searchFn(searchName)">
         搜索
@@ -12,13 +14,16 @@
     <div class="history-hot-wrapper">
       <div class="hot-title"><img src="/img/hot.png" alt=""><span>热门搜索</span></div>
       <ul class="hot-list">
-        <li v-for="(item, index) in datum.hotSearch" :key='index' @click="searchFn(item)">
+        <li v-for="(item, index) in datum.hotSearch" :key='index'
+          @click="searchFn(item)">
           {{item}}
         </li>
       </ul>
-      <div class="history-title"><img src="/img/history.png" alt=""><span>搜索历史</span></div>
+      <div class="history-title"><img src="/img/history.png"
+          alt=""><span>搜索历史</span></div>
       <ul v-if="historyList" class="history-list">
-        <li v-for="(item, index) in historyList" :key='index' @click="searchFn(item)">
+        <li v-for="(item, index) in historyList" :key='index'
+          @click="searchFn(item)">
           {{item}}
         </li>
       </ul>
@@ -93,6 +98,10 @@ export default {
       this.getData(name);
     },
     getData(name) {
+      this.$toast.loading({
+        mask: true,
+        message: '加载中...',
+      });
       this.$http
         .post('/api/search', {
           keyword: name,
@@ -103,6 +112,9 @@ export default {
           this.$nextTick(() => {
             this.searchShowLit = true;
             this.searchLit = data;
+            setTimeout(() => {
+              this.$toast.clear();
+            }, 600);
           });
         });
     },

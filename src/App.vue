@@ -2,8 +2,8 @@
   <div id="app">
     <router-view />
     <van-tabbar v-model="active">
-      <van-tabbar-item @click='tabbar' v-for="(item, index) in icons" :key='index'
-        :info="index===2?badge:''">
+      <van-tabbar-item @click='tabbar' v-for="(item, index) in icons"
+        :key='index' :info="index===2?quantity:''">
         <span>{{item.name}}</span>
         <img slot="icon" slot-scope="props" :src="props.active ? item.active : item.normal">
       </van-tabbar-item>
@@ -11,6 +11,8 @@
   </div>
 </template>
 <script>
+import { mapState } from 'vuex';
+
 export default {
   data() {
     return {
@@ -40,7 +42,18 @@ export default {
       ],
     };
   },
-  created() {},
+  computed: {
+    ...mapState({
+      quantity: state => state.cat.quantity,
+    }),
+  },
+  created() {
+    this.$store.dispatch('getDatum');
+    this.$store.dispatch('getQuantity');
+  },
+  mounted() {
+    console.log(this.$store.state);
+  },
   methods: {
     tabbar() {
       const ROUTES = this.$router.options.routes;
