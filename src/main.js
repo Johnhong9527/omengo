@@ -14,6 +14,7 @@ import {
   NavBar,
   Lazyload,
   Toast,
+  Field,
 } from 'vant';
 import 'amfe-flexible';
 import App from './App.vue';
@@ -22,6 +23,7 @@ import store from './store';
 import ajaxPlugin from './plugins/ajax/index';
 import './registerServiceWorker';
 import './assets/nprogress.css';
+import './assets/reset.css';
 
 Vue.use(Row).use(Col);
 Vue.use(Loading);
@@ -35,6 +37,7 @@ Vue.use(Lazyload, {
   loading: '/img/no-img.jpeg',
 });
 Vue.use(Toast);
+Vue.use(Field);
 // Vue.use(ajaxPlugin);
 Vue.prototype.$http = ajaxPlugin;
 // console.log(ajax)

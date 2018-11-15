@@ -110,9 +110,9 @@ export default {
         })
         .then(data => {
           this.$nextTick(() => {
-            this.searchShowLit = true;
             this.searchLit = data;
             setTimeout(() => {
+              this.searchShowLit = true;
               this.$toast.clear();
             }, 600);
           });

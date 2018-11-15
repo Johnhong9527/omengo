@@ -1,6 +1,6 @@
 <template>
   <div class="shopcart-wrapper">
-    <div class="badge">
+    <div class="badge" v-if="quantity > 0">
       {{quantity}}
     </div>
     <div class="shopcart">

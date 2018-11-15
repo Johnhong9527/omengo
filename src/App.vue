@@ -3,7 +3,7 @@
     <router-view />
     <van-tabbar v-model="active">
       <van-tabbar-item @click='tabbar' v-for="(item, index) in icons"
-        :key='index' :info="index===2?quantity:''">
+        :key='index' :info="index === 2 && quantity > 0 ? quantity : ''">
         <span>{{item.name}}</span>
         <img slot="icon" slot-scope="props" :src="props.active ? item.active : item.normal">
       </van-tabbar-item>

@@ -13,8 +13,12 @@
         </div>
       </div>
     </van-swipe>
+    <midServiceComponents />
     <div style="font-size:14px;" @click='removeItem'>
       localStorage.removeItem("key");
+    </div>
+    <div @click="loginShow = true">
+      loginShow
     </div>
     <cppAdComponents v-if='datum && datum.cppStoreAdImages'
       :cpp='datum.cppStoreAdImages' />
@@ -30,6 +34,7 @@
 import { mapState } from 'vuex';
 import headerComponents from '@/components/header/header.vue';
 import cppAdComponents from '@/components/cppAd/index.vue';
+import midServiceComponents from '@/components/midService/mid-service.vue';
 
 export default {
   name: 'home',
@@ -56,6 +61,7 @@ export default {
   components: {
     headerComponents,
     cppAdComponents,
+    midServiceComponents,
   },
   computed: {
     ...mapState({
@@ -85,7 +91,7 @@ vanSwipeIndicator = 90px
   // bottom 0
   // right 0
   // left 0
-  // background-color #000
+  background-color #e5e5e5
 .van-swipe
   height vSwipeHeight
   .van-swipe-item
