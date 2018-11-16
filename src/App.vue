@@ -3,7 +3,7 @@
     <router-view />
     <van-tabbar v-model="active">
       <van-tabbar-item @click='tabbar' v-for="(item, index) in icons"
-        :key='index' :info="index === 2 && quantity > 0 ? quantity : ''">
+        ref='vanTabbarItem' :key='index' :info="index === 2 && quantity > 0 ? quantity : ''">
         <span>{{item.name}}</span>
         <img slot="icon" slot-scope="props" :src="props.active ? item.active : item.normal">
       </van-tabbar-item>
@@ -11,7 +11,7 @@
   </div>
 </template>
 <script>
-import { mapState } from 'vuex';
+import { mapState, mapActions } from 'vuex';
 
 export default {
   data() {
@@ -52,9 +52,12 @@ export default {
     this.$store.dispatch('getQuantity');
   },
   mounted() {
-    console.log(this.$store.state);
+    this.getCatRect(
+      this.$refs.vanTabbarItem[2].$el.childNodes[0].getBoundingClientRect(),
+    );
   },
   methods: {
+    ...mapActions(['getCatRect']),
     tabbar() {
       const ROUTES = this.$router.options.routes;
       this.$router.push({ path: ROUTES[this.active].path });
@@ -82,11 +85,13 @@ export default {
     &.router-link-exact-active
       color #42b983
 .van-tabbar
-  height 40px
+  height 50px
+  .van-tabbar-item
+    color #333
 .van-tabbar-item__icon
   img
-    width 20px
-    height 20px
+    width 25px
+    height 25px
   .van-info
     z-index 2
 .van-tabbar-item__text

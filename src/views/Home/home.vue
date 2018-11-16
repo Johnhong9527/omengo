@@ -5,7 +5,7 @@
       <van-swipe-item v-for="(item, index) in datum.storeAdImages"
         :key='index'>
         <img :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image"
-          alt="">
+          v-lazy="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image">
       </van-swipe-item>
       <div class="custom-indicator" slot="indicator" style="color:red;">
         <div v-for="(item, index) in datum.storeAdImages"
@@ -14,14 +14,9 @@
       </div>
     </van-swipe>
     <midServiceComponents />
-    <div style="font-size:14px;" @click='removeItem'>
-      localStorage.removeItem("key");
-    </div>
-    <div @click="loginShow = true">
-      loginShow
-    </div>
     <cppAdComponents v-if='datum && datum.cppStoreAdImages'
       :cpp='datum.cppStoreAdImages' />
+    <homeList :datum='datum' />
     <!-- <van-loading /> -->
     <!-- <van-loading color="red" /> -->
   </div>
@@ -35,6 +30,7 @@ import { mapState } from 'vuex';
 import headerComponents from '@/components/header/header.vue';
 import cppAdComponents from '@/components/cppAd/index.vue';
 import midServiceComponents from '@/components/midService/mid-service.vue';
+import homeList from './list.vue';
 
 export default {
   name: 'home',
@@ -45,7 +41,7 @@ export default {
     };
   },
   created() {
-    if (window.localStorage) {
+    try {
       // 主逻辑业务
       const storage = window.localStorage;
       // eslint-disable-next-line
@@ -53,15 +49,18 @@ export default {
         this.$router.push({ path: '/SelectStore' });
       } else {
         // eslint-disable-next-line
-        this.storeId = JSON.parse(storage.__H5__store__).id;
+        // this.storeId = JSON.parse(storage.__H5__store__).id;
         // this.getDatum(this.storeId);
       }
+    } catch (err) {
+      console.log(err);
     }
   },
   components: {
     headerComponents,
     cppAdComponents,
     midServiceComponents,
+    homeList,
   },
   computed: {
     ...mapState({
@@ -99,6 +98,7 @@ vanSwipeIndicator = 90px
     img
       display block
       width 100%
+      max-height 210px
 .van-swipe__indicators
   .van-swipe__indicator
     width vanSwipeIndicator

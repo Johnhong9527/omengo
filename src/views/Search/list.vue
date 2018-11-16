@@ -4,7 +4,8 @@
       <li class="m-goods-wrapper" v-for="(item, index) in list.list"
         :key="index" ref='goods'>
         <div class="goods-image">
-          <img :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image">
+          <img :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image"
+            v-lazy="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image">
         </div>
         <div class="promotion" style="visibility: hidden;">hidden</div>
         <div class="name van-ellipsis">
@@ -12,8 +13,7 @@
         </div>
         <div class="price">
           ￥{{item.price |priceF}}<span class="unit">{{item.unit}}</span><img
-            @click="add($event,item,index)" src="/img/cat.png"
-            alt="">
+            @click="add($event,item,index)" src="/img/cat.png">
         </div>
         {{item.promotions}}
       </li>

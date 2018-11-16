@@ -9,6 +9,7 @@ export default new Vuex.Store({
   state: {
     datum: {},
     cat: { quantity: '' },
+    catRect: {},
   },
   mutations: {
     GETDATUM(state, data) {
@@ -24,6 +25,10 @@ export default new Vuex.Store({
         // eslint-disable-next-line
         state.cat.quantity += 1;
       }
+    },
+    GETCATRECT(state, info) {
+      // eslint-disable-next-line
+      state.catRect = info;
     },
   },
   actions: {
@@ -61,6 +66,9 @@ export default new Vuex.Store({
             commit('GETQUANTITY', res);
           });
       }
+    },
+    getCatRect({ commit }, info) {
+      commit('GETCATRECT', info);
     },
   },
 });

@@ -17,9 +17,7 @@ export default {
       cppAdShow: true,
     };
   },
-  created() {
-    console.log(this.cpp);
-  },
+  created() {},
   props: {
     cpp: Array,
   },
