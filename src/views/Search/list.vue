@@ -123,6 +123,8 @@ export default {
     beforeEnter(el) {
       // 设置动画的起始状态
       let rect = this.point.el.getBoundingClientRect();
+      console.log(rect.top);
+      console.log(rect.left);
       el.style.top = `${rect.top}px`;
       el.style.left = `${rect.left}px`;
       // el.style.transformScale = 1;

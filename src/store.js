@@ -40,8 +40,7 @@ export default new Vuex.Store({
       });
       http
         .get('/api/index', {
-          // eslint-disable-next-line
-          storeId: JSON.parse(storage.__H5__store__).id,
+          storeId: JSON.parse(storage.getItem('__H5__store__')).id,
         })
         .then(data => {
           toast.clear();
