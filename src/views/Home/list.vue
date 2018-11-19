@@ -32,7 +32,7 @@ export default {
   },
   created() {},
   mounted() {
-    console.log(this.datum);
+    // console.log(this.datum);
   },
   methods: {
     log() {

@@ -12,18 +12,9 @@
         ? goods.price : goods.discountPrice}}</span><span
         class="unit van-ellipsis">/{{goods.unit}}</span>
     </div>
-    <div class="btn-add" @click="add">
+    <div class="btn-add" @click="add($event)">
       <img src="/img/cat.png" alt="">
     </div>
-    <transition name="point" v-on:before-enter=" beforeEnter"
-      v-on:enter="enter" v-on:after-enter="afterEnter">
-      <!-- <div v-show="point.show" class="point" :style="{left:point.x,top:point.y}"> -->
-      <div v-if="point.show" class="point">
-        <!-- <span>{{point.x}}</span><br /><span>{{point.y}}</span> -->
-        <img class="goods-img" :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+point.image"
-          alt="">
-      </div>
-    </transition>
   </div>
 </template>
 <script>
@@ -31,6 +22,14 @@ import { mapState } from 'vuex';
 
 export default {
   name: 'small-goods',
+  data() {
+    return {
+      point: {
+        show: false,
+        image: '',
+      },
+    };
+  },
   props: {
     goods: Object,
   },
@@ -43,8 +42,16 @@ export default {
     // console.log(this.goods);
   },
   methods: {
-    add() {
-      console.log(this.goods);
+    add(event) {
+      const $event = event;
+      // eslint-disable-next-line
+      if (!$event._constructed) {
+        return;
+      }
+      this.$emit(
+        'add',
+        $event.target.parentNode.parentNode.children[0].children[0],
+      );
     },
   },
 };
@@ -109,16 +116,6 @@ export default {
     right 0px
     width 20px
     height 20px
-    img
-      width 100%
-      height 100%
-      display block
-  .point
-    position fixed
-    z-index 4
-    width 160px
-    height 160px
-    transition all 0.7s cubic-bezier(0.49, -0.29, 0.75, 0.41)
     img
       width 100%
       height 100%

@@ -14,7 +14,7 @@
       </div>
     </van-swipe>
     <midServiceComponents />
-    <cppAdComponents v-if='datum && datum.cppStoreAdImages'
+    <cppAdComponents v-if='datum && datum.cppStoreAdImages && datum.cppStoreAdImages.length > 0'
       :cpp='datum.cppStoreAdImages' />
     <homeList :datum='datum' />
     <!-- <van-loading /> -->

@@ -6,17 +6,18 @@
         v-lazy="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+product.image">
       <div class="list" ref='list'>
         <div>
-          <smallGoods ref="small" v-for="(item, index) in product.children"
+          <smallGoods ref="small" @add='add' v-for="(item, index) in product.children"
             :key='index' :goods='item' />
         </div>
       </div>
-
     </div>
+    <addCat ref='addCat' />
   </div>
 </template>
 <script>
 import Bscroll from 'better-scroll';
 import smallGoods from '@/components/smallGoods/small-goods.vue';
+import addCat from '@/components/addCat/index.vue';
 
 export default {
   name: 'category',
@@ -25,6 +26,7 @@ export default {
   },
   components: {
     smallGoods,
+    addCat,
   },
   mounted() {
     this.initScroll();
@@ -51,6 +53,12 @@ export default {
       } else {
         this.listScroll.refresh();
       }
+    },
+    add(target) {
+      console.log(this.$refs.addCat);
+      this.$refs.addCat.target = target;
+      this.$refs.addCat.isShow = true;
+      this.$refs.addCat.imageSrc = target.getAttribute('src');
     },
   },
 };

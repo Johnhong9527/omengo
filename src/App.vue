@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view />
+    <keep-alive>
+      <router-view />
+    </keep-alive>
     <van-tabbar v-model="active">
       <van-tabbar-item @click='tabbar' v-for="(item, index) in icons"
         ref='vanTabbarItem' :key='index' :info="index === 2 && quantity > 0 ? quantity : ''">
