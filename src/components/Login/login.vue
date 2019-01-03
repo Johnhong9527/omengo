@@ -1,17 +1,33 @@
 <template>
-  <div class="login-wrapper" v-if="show">
+  <div
+    class="login-wrapper"
+    v-if="show"
+  >
     <div class="login">
-      <div class="close icon-close" @click="isShow">
+      <div
+        class="close icon-close"
+        @click="isShow"
+      >
       </div>
       <div class="from van-hairline--surround">
-        <inputText icon='user' class="van-hairline--bottom"
-          type='number' placeholder='请输入11位手机号码'>
+        <inputText
+          icon='user'
+          class="van-hairline--bottom"
+          type='number'
+          placeholder='请输入11位手机号码'
+        >
           <div class="user-btn">获取验证码</div>
         </inputText>
-        <inputText class="van-hairline--bottom" icon='lock'
-          placeholder='请输入验证码'>
+        <inputText
+          class="van-hairline--bottom"
+          icon='lock'
+          placeholder='请输入验证码'
+        >
         </inputText>
-        <inputText icon='hand' placeholder='请输入邀请码(非必填)'>
+        <inputText
+          icon='hand'
+          placeholder='请输入邀请码(非必填)'
+        >
         </inputText>
       </div>
       <button class="btn">登录</button>
@@ -19,24 +35,26 @@
   </div>
 </template>
 <script>
-import inputText from '@/components/inputText/text.vue';
+import inputText from "@/components/inputText/text.vue";
 
 export default {
   props: {
     show: {
       type: Boolean,
-      default: false,
-    },
+      default: false
+    }
   },
   methods: {
     isShow() {
-      this.show = false;
-      this.$emit('isShow', this.show);
-    },
+      this.$nextTick(() => {
+        // this.show = false;
+        this.$emit("isShow", false);
+      });
+    }
   },
   components: {
-    inputText,
-  },
+    inputText
+  }
 };
 </script>
 

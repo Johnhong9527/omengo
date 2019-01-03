@@ -38,12 +38,14 @@ export default new Vuex.Store({
         mask: true,
         message: '加载中...',
       });
+      // eslint-disable-next-line
+      if (storage.__H5__store__ === undefined) return;
       http
         .get('/api/index', {
           // eslint-disable-next-line
           storeId: JSON.parse(storage.__H5__store__).id,
         })
-        .then(data => {
+        .then((data) => {
           toast.clear();
           // eslint-disable-next-line
           commit('GETDATUM', data);
@@ -54,14 +56,15 @@ export default new Vuex.Store({
     },
     getQuantity({ commit }) {
       const storage = window.localStorage;
-      if (storage.getItem('__H5__cart__') === null) {
+      const h5Cart = storage.getItem('__H5__cart__');
+      if (h5Cart === null) {
         commit('GETQUANTITY', 0);
       } else {
         http
           .get('api/cart/sku_quantity', {
-            cartKey: storage.getItem('__H5__cart__'),
+            cartKey: h5Cart,
           })
-          .then(res => {
+          .then((res) => {
             console.log(res);
             commit('GETQUANTITY', res);
           });

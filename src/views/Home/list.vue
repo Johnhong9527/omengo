@@ -1,34 +1,52 @@
 <template>
   <div class="list-wrapper">
-    <homeTitle title="特色互动" text='好品质当然要特色' />
+    <homeTitle
+      title="特色互动"
+      text='好品质当然要特色'
+    />
     <div class="activity-wraper">
-      <div class="activity" v-for="(item, index) in datum.interactionImages"
-        :key='index' @click='toCat(item)'>
-        <img :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image"
-          v-lazy="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image">
+      <div
+        class="activity"
+        v-for="(item, index) in datum.interactionImages"
+        :key='index'
+        @click='toCat(item)'
+      >
+        <img
+          :src="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image"
+          v-lazy="'https://fsomengo.oss-cn-shenzhen.aliyuncs.com'+item.image"
+        >
       </div>
     </div>
-    <homeTitle title="小店精选" text='精选每天不重样' />
-    <div class="store-product-category" v-for="(item, index) in datum.storeProductCategory"
-      :key='index'>
+    <homeTitle
+      title="小店精选"
+      text='精选每天不重样'
+    />
+    <div
+      class="store-product-category"
+      v-for="(item, index) in datum.storeProductCategory"
+      :key='index'
+    >
       <homeCategory :product='item' />
     </div>
-    <homeTitle title="猜你喜欢" text='每天不重样' />
+    <homeTitle
+      title="猜你喜欢"
+      text='每天不重样'
+    />
     <div class="home-bottom"></div>
   </div>
 </template>
 <script>
-import homeTitle from './title.vue';
-import homeCategory from './category.vue';
+import homeTitle from "./title.vue";
+import homeCategory from "./category.vue";
 
 export default {
-  name: 'home-list',
+  name: "home-list",
   components: {
     homeTitle,
-    homeCategory,
+    homeCategory
   },
   props: {
-    datum: Object,
+    datum: Object
   },
   created() {},
   mounted() {
@@ -38,7 +56,10 @@ export default {
     log() {
       console.log(this.datum);
     },
-  },
+    toCat(item) {
+      console.log(item);
+    }
+  }
 };
 </script>
 
