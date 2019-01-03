@@ -32,18 +32,24 @@
       title="猜你喜欢"
       text='每天不重样'
     />
+    <homeBigCategory
+      v-if="datum && datum.extra"
+      :extra='datum.extra'
+    />
     <div class="home-bottom"></div>
   </div>
 </template>
 <script>
 import homeTitle from "./title.vue";
 import homeCategory from "./category.vue";
+import homeBigCategory from "./bigCategory.vue";
 
 export default {
   name: "home-list",
   components: {
     homeTitle,
-    homeCategory
+    homeCategory,
+    homeBigCategory
   },
   props: {
     datum: Object

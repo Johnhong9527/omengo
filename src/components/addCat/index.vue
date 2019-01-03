@@ -1,30 +1,37 @@
 <template>
-  <transition name="add-cat" v-on:before-enter="beforeEnter"
-    v-on:enter="enter" v-on:after-enter="afterEnter">
-    <div v-if="cat && cat.show" class="add-cat">
+  <transition
+    name="add-cat"
+    v-on:before-enter="beforeEnter"
+    v-on:enter="enter"
+    v-on:after-enter="afterEnter"
+  >
+    <div
+      v-if="cat && cat.show"
+      class="add-cat"
+    >
       <img :src="cat.imageSrc">
     </div>
   </transition>
 </template>
 <script>
-import { mapState } from 'vuex';
+import { mapState } from "vuex";
 
 export default {
-  name: 'addCat',
+  name: "addCat",
   data() {
     return {
       isShow: false,
-      target: '',
-      imageSrc: '',
+      target: "",
+      imageSrc: ""
     };
   },
   props: {
-    cat: Object,
+    cat: Object
   },
   computed: {
     ...mapState({
-      catRect: state => state.catRect,
-    }),
+      catRect: state => state.catRect
+    })
   },
   methods: {
     // eslint-disable-next-line
@@ -38,30 +45,34 @@ export default {
     // eslint-disable-next-line
     enter(el, done) {
       const $el = el;
-      $el.style.webkitTransform = 'translate3d(0,0,0)'; // 开启GPU加速
-      $el.style.transform = 'translate3d(0,0,0)'; // 开启GPU加速
+      console.clear();
+      console.log(this.cat.target.offsetWidth / 4);
+      $el.style.webkitTransform = "translate3d(0,0,0)"; // 开启GPU加速
+      $el.style.transform = "translate3d(0,0,0)"; // 开启GPU加速
       $el.style.width = `${this.cat.target.offsetWidth}px`; // 设置图片初始宽度
       $el.style.height = `${this.cat.target.offsetHeight}px`; // 设置图片初始高度
-      $el.style.top = `${this.catRect.top - 20}px`; // 设置图片最后落点的纵轴位置
-      $el.style.left = `${this.catRect.left - 25}px`; // 设置图片最后落点的横轴位置
-      $el.style.transform = 'scale(0.3)'; // 设置落点时缩放比例
+      $el.style.top = `${this.catRect.top
+        - this.cat.target.offsetHeight / 3}px`; // 设置图片最后落点的纵轴位置
+      $el.style.left = `${this.catRect.left
+        - this.cat.target.offsetWidth / 3}px`; // 设置图片最后落点的横轴位置
+      $el.style.transform = "scale(0.3)"; // 设置落点时缩放比例
       $el.style.opacity = 0.3; //  设置落点时的透明百分比
-      $el.addEventListener('transitionend', done); // 监听过渡事件终止,触发`done`函数
+      $el.addEventListener("transitionend", done); // 监听过渡事件终止,触发`done`函数
     },
     // eslint-disable-next-line
     afterEnter(el, done) {
       // 动画结束,初始化数据
       const $el = el;
       this.$nextTick(() => {
-        $el.style.display = 'none';
+        $el.style.display = "none";
         this.$parent.cat.show = false;
-        this.$parent.cat.target = '';
-        this.$parent.cat.imageSrc = '';
+        this.$parent.cat.target = "";
+        this.$parent.cat.imageSrc = "";
         // $el.addEventListener('transitionend', );
-        done();
+        // done();
       });
-    },
-  },
+    }
+  }
 };
 </script>
 <style lang="stylus" scoped>

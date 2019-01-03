@@ -62,15 +62,17 @@ export default {
   padding 10px 10px 0 0
   height 40px
   z-index 2
+  background-color #fff
   .address-wrapper
     width 50px
     height 25px
     position relative
     .icon
-      color #fff
+      color #000
       width 25px
       height 25px
-      margin 0 auto
+      margin 2px auto 0
+      font-size 25px
       img
         display block
         width 100%
@@ -107,7 +109,8 @@ export default {
     flex 1
     height 30px
     line-height 30px
-    background rgba(255, 255, 255, 0.4)
+    // background rgba(255, 255, 255, 0.4)
+    background rgb(238, 238, 238)
     border-radius 20px
     font-size 0
     .icon
