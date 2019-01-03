@@ -111,9 +111,9 @@ export default {
       font-size 12px
       color #999
   .btn-add
-    position absolute
-    bottom 15px
-    right 0px
+    position relative
+    bottom 25px
+    left 100px
     width 20px
     height 20px
     img

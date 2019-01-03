@@ -11,7 +11,7 @@
         </div>
       </div>
     </div>
-    <addCat ref='addCat' />
+    <addCat v-if="cat.show" :cat='cat' />
   </div>
 </template>
 <script>
@@ -21,6 +21,15 @@ import addCat from '@/components/addCat/index.vue';
 
 export default {
   name: 'category',
+  data() {
+    return {
+      cat: {
+        show: false,
+        target: '',
+        imageSrc: '',
+      },
+    };
+  },
   props: {
     product: Object,
   },
@@ -55,10 +64,9 @@ export default {
       }
     },
     add(target) {
-      console.log(this.$refs.addCat);
-      this.$refs.addCat.target = target;
-      this.$refs.addCat.isShow = true;
-      this.$refs.addCat.imageSrc = target.getAttribute('src');
+      this.cat.target = target;
+      this.cat.show = true;
+      this.cat.imageSrc = target.getAttribute('src');
     },
   },
 };
